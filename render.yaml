@@ -1,0 +1,23 @@
+# Render Blueprint for the AnoUlam backend (free plan).
+# In Render: New > Blueprint > pick this repo. Docs: https://render.com/docs/blueprint-spec
+#
+# Free web services sleep after 15 minutes without traffic and take about a
+# minute to wake; the app shows "Waking up the recipe server..." meanwhile.
+# The filesystem resets on restart, which is fine: the SQLite database is
+# rebuilt from data/recipes.json at startup and the photos ship in the repo.
+services:
+  - type: web
+    name: anoulam-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      # Free recipe database; the paid Claude source stays off.
+      - key: RECIPE_SOURCE
+        value: database

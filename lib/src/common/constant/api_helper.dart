@@ -11,9 +11,12 @@ class ApiHelper {
   /// from the Android emulator.
   static const String baseUrlDev = 'http://10.0.2.2:8000';
 
-  // TODO: replace once staging and production are deployed.
+  // TODO: replace once a staging backend is deployed.
   static const String baseUrlStg = 'https://stg-api.example.com';
-  static const String baseUrlProd = 'https://api.example.com';
+
+  /// The backend on Render's free plan (see render.yaml). If Render gives
+  /// the service a different address, update it here.
+  static const String baseUrlProd = 'https://anoulam-api.onrender.com';
 
   static String get baseUrl {
     if (_baseUrlOverride.isNotEmpty) return _baseUrlOverride;
