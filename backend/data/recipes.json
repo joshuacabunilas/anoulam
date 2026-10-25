@@ -1,0 +1,2656 @@
+[
+  {
+    "id": "egg-fried-rice",
+    "name": "Egg Fried Rice",
+    "description": "Quick pan-fried rice with scrambled egg and soy sauce. Best with day-old rice.",
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "rice",
+      "egg",
+      "soy sauce",
+      "garlic",
+      "green onion"
+    ],
+    "steps": [
+      "Heat oil in a pan and saute minced garlic until fragrant.",
+      "Push the garlic aside, scramble the eggs, then break them into small pieces.",
+      "Add the cooked rice and stir-fry for 3 to 4 minutes.",
+      "Season with soy sauce, toss well, and top with sliced green onion."
+    ],
+    "image_url": "/images/egg-fried-rice.jpg",
+    "image_credit": "Photo: Gaurav Dhwaj Khadka (CC BY-SA 4.0)"
+  },
+  {
+    "id": "garlic-fried-rice",
+    "name": "Garlic Fried Rice (Sinangag)",
+    "description": "Filipino breakfast rice fried with plenty of toasted garlic.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "rice",
+      "garlic"
+    ],
+    "steps": [
+      "Fry minced garlic in oil over low heat until golden. Set half aside.",
+      "Add the cooked rice and break up any clumps.",
+      "Season with salt and stir-fry for 3 minutes.",
+      "Top with the reserved toasted garlic."
+    ],
+    "image_url": "/images/garlic-fried-rice.jpg",
+    "image_credit": "Photo: Bing Ramos from Quezon City, Philippines (CC BY 2.0)"
+  },
+  {
+    "id": "chicken-adobo",
+    "name": "Chicken Adobo",
+    "description": "Chicken braised in vinegar, soy sauce, garlic and bay leaf.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "vinegar",
+      "garlic",
+      "bay leaf",
+      "peppercorn"
+    ],
+    "steps": [
+      "Marinate the chicken in soy sauce and crushed garlic for 15 minutes.",
+      "Brown the chicken in a pot with a little oil.",
+      "Add the marinade, vinegar, bay leaves and peppercorns. Do not stir until it boils.",
+      "Simmer covered for 30 minutes until the chicken is tender.",
+      "Uncover and reduce the sauce to your liking."
+    ],
+    "image_url": "/images/chicken-adobo.jpg",
+    "image_credit": "Photo: dbgg1979 (CC BY 2.0)"
+  },
+  {
+    "id": "pork-adobo",
+    "name": "Pork Adobo",
+    "description": "Tender pork simmered in soy sauce, vinegar and garlic until glossy.",
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "soy sauce",
+      "vinegar",
+      "garlic",
+      "bay leaf",
+      "peppercorn"
+    ],
+    "steps": [
+      "Cut the pork into cubes and marinate in soy sauce and garlic for 15 minutes.",
+      "Sear the pork in a pot until lightly browned.",
+      "Add the marinade, vinegar, bay leaves, peppercorns and a cup of water.",
+      "Simmer covered for 45 minutes until tender.",
+      "Uncover and cook until the sauce thickens."
+    ],
+    "image_url": "/images/pork-adobo.jpg",
+    "image_credit": "Photo: pulaw (CC BY 2.0)"
+  },
+  {
+    "id": "chicken-tinola",
+    "name": "Chicken Tinola",
+    "description": "Light ginger chicken soup with papaya.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "soup",
+    "ingredients": [
+      "chicken",
+      "ginger",
+      "onion",
+      "garlic",
+      "papaya",
+      "fish sauce"
+    ],
+    "steps": [
+      "Saute garlic, onion and sliced ginger in a pot.",
+      "Add the chicken and cook until lightly browned.",
+      "Season with fish sauce, add water to cover, and simmer for 20 minutes.",
+      "Add sliced papaya and cook until tender."
+    ],
+    "image_url": "/images/chicken-tinola.jpg",
+    "image_credit": "Photo: FoxLad at English Wikipedia (CC BY 3.0)"
+  },
+  {
+    "id": "pork-sinigang",
+    "name": "Pork Sinigang",
+    "description": "Sour tamarind soup with pork and vegetables.",
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "soup",
+    "ingredients": [
+      "pork",
+      "tamarind",
+      "tomato",
+      "onion",
+      "radish",
+      "string bean",
+      "kangkong"
+    ],
+    "steps": [
+      "Boil the pork with onion and tomato for 40 minutes until tender.",
+      "Add the tamarind (or tamarind soup mix) and sliced radish. Cook for 5 minutes.",
+      "Add string beans and cook for 3 minutes.",
+      "Add kangkong, turn off the heat, and season with salt or fish sauce."
+    ],
+    "image_url": "/images/pork-sinigang.jpg",
+    "image_credit": "Photo: MarvinBikolano (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ginisang-monggo",
+    "name": "Ginisang Monggo",
+    "description": "Comforting mung bean stew with pork and greens.",
+    "cooking_time_minutes": 50,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "mung bean",
+      "pork",
+      "garlic",
+      "onion",
+      "tomato",
+      "spinach"
+    ],
+    "steps": [
+      "Boil the mung beans in water until soft, about 30 minutes.",
+      "In another pot, saute garlic, onion and tomato, then add sliced pork and brown it.",
+      "Pour in the cooked mung beans and simmer for 10 minutes.",
+      "Stir in the spinach and season with salt."
+    ],
+    "image_url": "/images/ginisang-monggo.jpg",
+    "image_credit": "Photo: Pandakekok9 (CC0)"
+  },
+  {
+    "id": "tortang-talong",
+    "name": "Tortang Talong",
+    "description": "Grilled eggplant dipped in egg and pan-fried into an omelette.",
+    "cooking_time_minutes": 25,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "eggplant",
+      "egg",
+      "garlic"
+    ],
+    "steps": [
+      "Grill or broil the eggplants until the skin is charred and the flesh is soft.",
+      "Peel the eggplants and flatten them with a fork, keeping the stem.",
+      "Beat the eggs with minced garlic and a pinch of salt.",
+      "Dip each eggplant in the egg and pan-fry until golden on both sides."
+    ],
+    "image_url": "/images/tortang-talong.jpg",
+    "image_credit": "Photo: FBenjr123 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pancit-canton",
+    "name": "Pancit Canton",
+    "description": "Stir-fried egg noodles with chicken and vegetables.",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "noodle",
+      "chicken",
+      "cabbage",
+      "carrot",
+      "soy sauce",
+      "garlic",
+      "onion"
+    ],
+    "steps": [
+      "Saute garlic and onion, then add sliced chicken and cook through.",
+      "Add sliced carrot and cabbage and stir-fry for 2 minutes.",
+      "Pour in soy sauce and a cup of water and bring to a boil.",
+      "Add the noodles and toss until they absorb the liquid."
+    ],
+    "image_url": "/images/pancit-canton.jpg",
+    "image_credit": "Photo: pulaw (CC BY 2.0)"
+  },
+  {
+    "id": "bistek-tagalog",
+    "name": "Bistek Tagalog",
+    "description": "Thin beef slices in a tangy soy-calamansi sauce with onion rings.",
+    "cooking_time_minutes": 40,
+    "servings": 3,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "soy sauce",
+      "calamansi",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Marinate thin beef slices in soy sauce, calamansi juice and garlic for 30 minutes.",
+      "Fry onion rings until slightly soft, then set aside.",
+      "Sear the beef in batches over high heat.",
+      "Add the marinade and simmer briefly, then top with the onion rings."
+    ],
+    "image_url": "/images/bistek-tagalog.jpg",
+    "image_credit": "Photo: Arnold Gatilao (CC BY 2.0)"
+  },
+  {
+    "id": "beef-vegetable-stir-fry",
+    "name": "Beef and Vegetable Stir-Fry",
+    "description": "Tender beef strips with crisp vegetables in a savory sauce.",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "bell pepper",
+      "onion",
+      "garlic",
+      "soy sauce",
+      "carrot"
+    ],
+    "steps": [
+      "Slice the beef thinly and toss with a little soy sauce.",
+      "Sear the beef over high heat, then set aside.",
+      "Stir-fry garlic, onion, carrot and bell pepper for 3 minutes.",
+      "Return the beef, add the remaining soy sauce, and toss."
+    ],
+    "image_url": "/images/beef-vegetable-stir-fry.jpg",
+    "image_credit": "Photo: Anagoria (CC BY 3.0)"
+  },
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "description": "Mild, creamy chicken curry with potato and carrot.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "curry powder",
+      "coconut milk",
+      "potato",
+      "carrot",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion, then add the chicken and brown it.",
+      "Stir in curry powder and cook for 1 minute.",
+      "Add coconut milk, potato and carrot.",
+      "Simmer for 25 minutes until the vegetables are tender. Season with salt."
+    ],
+    "image_url": "/images/chicken-curry.jpg",
+    "image_credit": "Photo: Monali.mishra (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chicken-sopas",
+    "name": "Chicken Sopas",
+    "description": "Creamy Filipino chicken macaroni soup.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "chicken",
+      "macaroni",
+      "milk",
+      "carrot",
+      "cabbage",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion, add the chicken and cook until no longer pink.",
+      "Add water and simmer for 15 minutes. Shred the chicken.",
+      "Add the macaroni and carrot and cook until the pasta is soft.",
+      "Stir in cabbage and milk, heat through, and season."
+    ],
+    "image_url": "/images/chicken-sopas.jpg",
+    "image_credit": "Photo: BrokenSphere (CC BY-SA 3.0)"
+  },
+  {
+    "id": "fried-chicken",
+    "name": "Crispy Fried Chicken",
+    "description": "Simple home-style fried chicken with a crunchy coating.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "flour",
+      "egg",
+      "garlic"
+    ],
+    "steps": [
+      "Season the chicken with salt, pepper and minced garlic.",
+      "Dip each piece in beaten egg, then coat well in flour.",
+      "Deep-fry in hot oil for 12 to 15 minutes, turning once, until golden and cooked through.",
+      "Drain on paper towels before serving."
+    ],
+    "image_url": "/images/fried-chicken.jpg",
+    "image_credit": "Photo: Brian Chan tigerrulezzz (CC0)"
+  },
+  {
+    "id": "pan-fried-fish-tomato",
+    "name": "Pan-Fried Fish with Tomato",
+    "description": "Crispy fish topped with a quick garlic, onion and tomato sauce.",
+    "cooking_time_minutes": 25,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "seafood",
+    "ingredients": [
+      "fish",
+      "tomato",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Season the fish with salt and pan-fry until crisp on both sides. Set aside.",
+      "In the same pan, saute garlic, onion and chopped tomato until soft.",
+      "Add a splash of water and simmer for 2 minutes.",
+      "Spoon the sauce over the fish."
+    ],
+    "image_url": "/images/pan-fried-fish-tomato.jpg",
+    "image_credit": "Photo: P1898 (CC BY 4.0)"
+  },
+  {
+    "id": "tomato-omelette",
+    "name": "Tomato Omelette",
+    "description": "Fluffy omelette with fresh tomato and onion.",
+    "cooking_time_minutes": 10,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "egg",
+      "tomato",
+      "onion"
+    ],
+    "steps": [
+      "Dice the tomato and onion.",
+      "Beat the eggs with a pinch of salt.",
+      "Saute the onion, add the tomato, then pour in the eggs.",
+      "Cook until set, fold, and serve."
+    ]
+  },
+  {
+    "id": "scrambled-eggs",
+    "name": "Creamy Scrambled Eggs",
+    "description": "Soft, creamy eggs cooked low and slow.",
+    "cooking_time_minutes": 8,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "egg",
+      "butter",
+      "milk"
+    ],
+    "steps": [
+      "Whisk the eggs with a splash of milk and a pinch of salt.",
+      "Melt butter in a pan over low heat.",
+      "Add the eggs and stir slowly until just set.",
+      "Take off the heat while still slightly glossy."
+    ],
+    "image_url": "/images/scrambled-eggs.jpg",
+    "image_credit": "Photo: Takeaway (CC BY-SA 3.0)"
+  },
+  {
+    "id": "french-toast",
+    "name": "French Toast",
+    "description": "Bread soaked in sweet egg custard and fried in butter.",
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "bread",
+      "egg",
+      "milk",
+      "sugar",
+      "butter"
+    ],
+    "steps": [
+      "Whisk eggs, milk and sugar in a shallow bowl.",
+      "Soak each slice of bread for a few seconds on each side.",
+      "Fry in butter over medium heat until golden on both sides."
+    ],
+    "image_url": "/images/french-toast.jpg",
+    "image_credit": "Photo: Ocdp (CC0)"
+  },
+  {
+    "id": "grilled-cheese",
+    "name": "Grilled Cheese Sandwich",
+    "description": "Golden, buttery toast with melted cheese.",
+    "cooking_time_minutes": 10,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "butter"
+    ],
+    "steps": [
+      "Butter one side of each slice of bread.",
+      "Place cheese between the unbuttered sides.",
+      "Cook in a pan over medium-low heat until golden, then flip and repeat."
+    ],
+    "image_url": "/images/grilled-cheese.jpg",
+    "image_credit": "Photo: jeffreyw (CC BY 2.0)"
+  },
+  {
+    "id": "tuna-sandwich",
+    "name": "Tuna Sandwich",
+    "description": "Classic tuna salad with onion between soft bread.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "bread",
+      "tuna",
+      "mayonnaise",
+      "onion"
+    ],
+    "steps": [
+      "Drain the tuna and flake it into a bowl.",
+      "Mix with mayonnaise, finely chopped onion, salt and pepper.",
+      "Spread between slices of bread."
+    ],
+    "image_url": "/images/tuna-sandwich.jpg",
+    "image_credit": "Photo: Richard Masoner (CC BY-SA 2.0)"
+  },
+  {
+    "id": "banana-pancakes",
+    "name": "Banana Pancakes",
+    "description": "Soft pancakes sweetened with ripe banana.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "banana",
+      "egg",
+      "flour",
+      "milk",
+      "sugar"
+    ],
+    "steps": [
+      "Mash the banana and whisk in the egg and milk.",
+      "Stir in the flour and sugar until just combined.",
+      "Cook ladlefuls on a greased pan until bubbles form, then flip."
+    ],
+    "image_url": "/images/banana-pancakes.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "banana-oatmeal",
+    "name": "Banana Oatmeal",
+    "description": "Warm oats cooked in milk and topped with banana and honey.",
+    "cooking_time_minutes": 10,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "oat",
+      "milk",
+      "banana",
+      "honey"
+    ],
+    "steps": [
+      "Simmer the oats in milk for 5 minutes, stirring often.",
+      "Slice the banana on top.",
+      "Drizzle with honey."
+    ],
+    "image_url": "/images/banana-oatmeal.jpg",
+    "image_credit": "Photo: Shisma (CC BY 4.0)"
+  },
+  {
+    "id": "garlic-butter-pasta",
+    "name": "Garlic Butter Pasta",
+    "description": "Simple pasta tossed in garlic butter and cheese.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "butter",
+      "garlic",
+      "cheese"
+    ],
+    "steps": [
+      "Cook the pasta in salted water until al dente. Save a cup of the water.",
+      "Melt butter in a pan and gently cook sliced garlic.",
+      "Toss in the drained pasta with a splash of pasta water.",
+      "Finish with grated cheese."
+    ],
+    "image_url": "/images/garlic-butter-pasta.jpg",
+    "image_credit": "Photo: Bairuilong (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tomato-pasta",
+    "name": "Tomato Garlic Pasta",
+    "description": "Pasta in a fresh tomato, garlic and onion sauce.",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "onion",
+      "cheese"
+    ],
+    "steps": [
+      "Cook the pasta in salted water until al dente.",
+      "Saute garlic and onion, then add chopped tomatoes.",
+      "Simmer for 15 minutes until saucy. Season with salt and pepper.",
+      "Toss with the pasta and top with cheese."
+    ],
+    "image_url": "/images/tomato-pasta.jpg",
+    "image_credit": "Photo: Katrin Gilger (CC BY-SA 2.0)"
+  },
+  {
+    "id": "creamy-potato-soup",
+    "name": "Creamy Potato Soup",
+    "description": "Comforting soup of potato, onion and milk.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "potato",
+      "onion",
+      "milk",
+      "butter",
+      "garlic"
+    ],
+    "steps": [
+      "Melt butter and soften the onion and garlic.",
+      "Add diced potatoes and enough water to cover.",
+      "Simmer until the potatoes are soft, about 20 minutes.",
+      "Mash or blend, stir in the milk, and season."
+    ],
+    "image_url": "/images/creamy-potato-soup.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "mashed-potatoes",
+    "name": "Mashed Potatoes",
+    "description": "Smooth, buttery mashed potatoes.",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "potato",
+      "butter",
+      "milk"
+    ],
+    "steps": [
+      "Boil peeled, cubed potatoes in salted water until very soft.",
+      "Drain well and mash.",
+      "Stir in butter and warm milk until smooth. Season with salt and pepper."
+    ],
+    "image_url": "/images/mashed-potatoes.jpg",
+    "image_credit": "Photo: Renee Comet (Public domain)"
+  },
+  {
+    "id": "vegetable-soup",
+    "name": "Vegetable Soup",
+    "description": "Light, healthy soup from everyday vegetables.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "carrot",
+      "potato",
+      "cabbage",
+      "onion",
+      "celery",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic, onion and celery until soft.",
+      "Add diced carrot and potato and cover with water.",
+      "Simmer for 20 minutes.",
+      "Add chopped cabbage, cook 5 more minutes, and season."
+    ],
+    "image_url": "/images/vegetable-soup.jpg",
+    "image_credit": "Photo: Scott Teresi (CC BY-SA 2.0)"
+  },
+  {
+    "id": "garden-salad",
+    "name": "Garden Salad",
+    "description": "Crisp lettuce, tomato and cucumber with a simple vinaigrette.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "vinegar"
+    ],
+    "steps": [
+      "Tear the lettuce and slice the tomato and cucumber.",
+      "Whisk vinegar with oil, salt and pepper.",
+      "Toss everything together just before serving."
+    ]
+  },
+  {
+    "id": "guacamole",
+    "name": "Guacamole",
+    "description": "Chunky avocado dip with tomato, onion and lime.",
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "avocado",
+      "tomato",
+      "onion",
+      "lime"
+    ],
+    "steps": [
+      "Mash the avocados, leaving some chunks.",
+      "Stir in finely chopped tomato and onion.",
+      "Season with lime juice and salt."
+    ],
+    "image_url": "/images/guacamole.jpg",
+    "image_credit": "Photo: Jon Sullivan (Public domain)"
+  },
+  {
+    "id": "fruit-salad",
+    "name": "Filipino Fruit Salad",
+    "description": "Sweet, creamy dessert of mixed fruit and condensed milk.",
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "fruit cocktail",
+      "condensed milk",
+      "cream"
+    ],
+    "steps": [
+      "Drain the fruit cocktail well.",
+      "Mix with cream and condensed milk.",
+      "Chill for at least 2 hours before serving."
+    ],
+    "image_url": "/images/fruit-salad.jpg",
+    "image_credit": "Photo: Ralff Nestor Nacor (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sinigang-na-hipon",
+    "name": "Sinigang na Hipon",
+    "description": "Sour tamarind soup with shrimp and vegetables.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "shrimp",
+      "tamarind",
+      "tomato",
+      "onion",
+      "radish",
+      "string bean",
+      "kangkong"
+    ],
+    "steps": [
+      "Boil water with quartered tomato and onion for 5 minutes.",
+      "Add the tamarind (or soup mix) and sliced radish. Simmer 5 minutes.",
+      "Add string beans, then the shrimp. Cook until the shrimp turn pink.",
+      "Add kangkong, turn off the heat, and season with fish sauce or salt."
+    ],
+    "image_url": "/images/sinigang-na-hipon.jpg",
+    "image_credit": "Photo: Ralff Nestor Nacor (CC BY-SA 4.0)"
+  },
+  {
+    "id": "kare-kare",
+    "name": "Kare-Kare",
+    "description": "Beef and vegetables in a rich peanut sauce, served with shrimp paste.",
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "difficulty": "hard",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "peanut butter",
+      "eggplant",
+      "string bean",
+      "bok choy",
+      "onion",
+      "garlic",
+      "shrimp paste"
+    ],
+    "steps": [
+      "Simmer the beef in water for about 1.5 hours until tender. Keep the broth.",
+      "Saute garlic and onion, add the beef and 3 cups of broth.",
+      "Stir in peanut butter until the sauce is smooth and thick.",
+      "Add eggplant and string beans, cook 5 minutes, then the bok choy.",
+      "Serve with shrimp paste on the side."
+    ],
+    "image_url": "/images/kare-kare.jpg",
+    "image_credit": "Photo: GracinhaMarco Abundo (CC BY 2.0)"
+  },
+  {
+    "id": "lumpiang-shanghai",
+    "name": "Lumpiang Shanghai",
+    "description": "Crispy Filipino spring rolls filled with seasoned pork.",
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "difficulty": "medium",
+    "category": "snack",
+    "ingredients": [
+      "pork",
+      "carrot",
+      "onion",
+      "garlic",
+      "egg",
+      "spring roll wrapper"
+    ],
+    "steps": [
+      "Mix ground pork, finely chopped carrot, onion and garlic, egg, salt and pepper.",
+      "Spread a thin line of filling on each wrapper and roll tightly. Seal with water.",
+      "Cut into bite-size pieces if you like.",
+      "Deep-fry until golden and cooked through, about 5 minutes."
+    ],
+    "image_url": "/images/lumpiang-shanghai.jpg",
+    "image_credit": "Photo: Roderick Suñaz Sumalinog (CC BY-SA 4.0)"
+  },
+  {
+    "id": "arroz-caldo",
+    "name": "Arroz Caldo",
+    "description": "Comforting ginger chicken rice porridge.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "ginger",
+      "garlic",
+      "onion",
+      "fish sauce",
+      "green onion"
+    ],
+    "steps": [
+      "Saute garlic, onion and ginger strips. Add the chicken and brown it.",
+      "Add uncooked rice and fish sauce and stir for a minute.",
+      "Pour in 6 cups of water and simmer 30 minutes, stirring often, until thick.",
+      "Top with green onion and toasted garlic."
+    ],
+    "image_url": "/images/arroz-caldo.jpg",
+    "image_credit": "Photo: Ernesto Andrade (CC BY 2.0)"
+  },
+  {
+    "id": "pork-menudo",
+    "name": "Pork Menudo",
+    "description": "Pork stew with potato, carrot and bell pepper in tomato sauce.",
+    "cooking_time_minutes": 60,
+    "servings": 5,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "tomato sauce",
+      "soy sauce",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion, then add cubed pork and brown it.",
+      "Add soy sauce, tomato sauce and a cup of water. Simmer 30 minutes.",
+      "Add diced potato and carrot and cook until tender.",
+      "Add bell pepper, cook 2 minutes, and season."
+    ],
+    "image_url": "/images/pork-menudo.jpg",
+    "image_credit": "Photo: Obsidian Soul (CC0)"
+  },
+  {
+    "id": "chicken-afritada",
+    "name": "Chicken Afritada",
+    "description": "Chicken braised with potato, carrot and bell pepper in tomato sauce.",
+    "cooking_time_minutes": 50,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "tomato sauce",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Brown the chicken pieces in a little oil. Set aside.",
+      "Saute garlic and onion, return the chicken, and add tomato sauce and water.",
+      "Simmer 20 minutes, then add potato and carrot.",
+      "Cook until tender, add bell pepper, and season with salt and pepper."
+    ],
+    "image_url": "/images/chicken-afritada.jpg",
+    "image_credit": "Photo: Jo Paragas (CC BY 2.0)"
+  },
+  {
+    "id": "beef-caldereta",
+    "name": "Beef Caldereta",
+    "description": "Hearty beef stew in a tomato and liver spread sauce.",
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "tomato sauce",
+      "liver spread",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Brown the beef, then simmer in water for about 1.5 hours until tender.",
+      "Saute garlic and onion, add the beef, tomato sauce and some of its broth.",
+      "Add potato and carrot and cook until tender.",
+      "Stir in liver spread to thicken, add bell pepper, and season."
+    ],
+    "image_url": "/images/beef-caldereta.jpg",
+    "image_credit": "Photo: Obsidian Soul (CC0)"
+  },
+  {
+    "id": "ginataang-kalabasa",
+    "name": "Ginataang Kalabasa at Sitaw",
+    "description": "Squash and string beans simmered in coconut milk with shrimp.",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "squash",
+      "string bean",
+      "coconut milk",
+      "shrimp",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion.",
+      "Add coconut milk and cubed squash. Simmer until the squash is almost soft.",
+      "Add string beans and shrimp and cook 5 minutes.",
+      "Season with salt or fish sauce."
+    ],
+    "image_url": "/images/ginataang-kalabasa.jpg",
+    "image_credit": "Photo: Yvette Tan (CC BY 2.0)"
+  },
+  {
+    "id": "pinakbet",
+    "name": "Pinakbet",
+    "description": "Mixed vegetables sauteed with pork and shrimp paste.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "vegetable",
+    "ingredients": [
+      "squash",
+      "eggplant",
+      "okra",
+      "bitter melon",
+      "string bean",
+      "tomato",
+      "onion",
+      "garlic",
+      "shrimp paste",
+      "pork"
+    ],
+    "steps": [
+      "Cook sliced pork until it renders some fat and browns.",
+      "Add garlic, onion and tomato and cook until soft. Stir in shrimp paste.",
+      "Add squash and a little water. Cook 5 minutes.",
+      "Add the remaining vegetables and cook until just tender. Avoid over-stirring."
+    ],
+    "image_url": "/images/pinakbet.jpg",
+    "image_credit": "Photo: Ralff Nestor Nacor (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tortang-giniling",
+    "name": "Tortang Giniling",
+    "description": "Ground pork and potato omelette.",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "pork",
+      "potato",
+      "egg",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion, add ground pork and finely diced potato. Cook through.",
+      "Let the filling cool slightly, then mix with beaten eggs.",
+      "Fry spoonfuls in a pan until set on both sides."
+    ],
+    "image_url": "/images/tortang-giniling.jpg",
+    "image_credit": "Photo: Judgefloro (CC0)"
+  },
+  {
+    "id": "champorado",
+    "name": "Champorado",
+    "description": "Chocolate rice porridge, often served with milk on top.",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "glutinous rice",
+      "cocoa",
+      "sugar",
+      "milk"
+    ],
+    "steps": [
+      "Boil the glutinous rice in 5 cups of water, stirring, until soft.",
+      "Stir in cocoa and sugar and cook until thick.",
+      "Serve hot with a swirl of milk."
+    ],
+    "image_url": "/images/champorado.jpg",
+    "image_credit": "Photo: Josh James from Imus, Philippines (CC BY 2.0)"
+  },
+  {
+    "id": "leche-flan",
+    "name": "Leche Flan",
+    "description": "Silky caramel custard.",
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "difficulty": "medium",
+    "category": "dessert",
+    "ingredients": [
+      "egg",
+      "condensed milk",
+      "evaporated milk",
+      "sugar"
+    ],
+    "steps": [
+      "Melt sugar in the mold over low heat until amber. Let it set.",
+      "Whisk egg yolks with condensed and evaporated milk. Strain the mixture.",
+      "Pour into the mold, cover with foil, and steam for 35 to 40 minutes.",
+      "Cool, chill, and turn out onto a plate."
+    ],
+    "image_url": "/images/leche-flan.jpg",
+    "image_credit": "Photo: Obsidian Soul (CC0)"
+  },
+  {
+    "id": "turon",
+    "name": "Turon",
+    "description": "Crispy fried banana rolls with caramelized sugar.",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "banana",
+      "spring roll wrapper",
+      "brown sugar"
+    ],
+    "steps": [
+      "Slice bananas lengthwise and roll each in brown sugar.",
+      "Wrap in spring roll wrappers and seal with water.",
+      "Fry until golden, sprinkling extra brown sugar into the oil to caramelize."
+    ],
+    "image_url": "/images/turon.jpg",
+    "image_credit": "Photo: Herbertkikoy (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ginisang-repolyo",
+    "name": "Ginisang Repolyo",
+    "description": "Quick sauteed cabbage with pork and carrot.",
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "cabbage",
+      "pork",
+      "carrot",
+      "onion",
+      "garlic",
+      "fish sauce"
+    ],
+    "steps": [
+      "Saute garlic and onion, then add thinly sliced pork and cook through.",
+      "Add carrot strips and cook 2 minutes.",
+      "Add the cabbage and stir-fry until just wilted. Season with fish sauce."
+    ],
+    "image_url": "/images/ginisang-repolyo.jpg",
+    "image_credit": "Photo: FBenjr123 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tokwat-baboy",
+    "name": "Tokwa't Baboy",
+    "description": "Fried tofu and pork in a tangy soy-vinegar sauce.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "tofu",
+      "pork",
+      "vinegar",
+      "soy sauce",
+      "onion",
+      "chili"
+    ],
+    "steps": [
+      "Boil the pork until tender, then slice. Fry the tofu until golden and cube it.",
+      "Mix vinegar, soy sauce, chopped onion and chili.",
+      "Pour the sauce over the pork and tofu and toss."
+    ],
+    "image_url": "/images/tokwat-baboy.jpg",
+    "image_credit": "Photo: Derk29 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "daing-na-isda",
+    "name": "Garlic-Vinegar Fried Fish (Daing)",
+    "description": "Fish marinated in vinegar and garlic, then fried crisp.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "seafood",
+    "ingredients": [
+      "fish",
+      "vinegar",
+      "garlic"
+    ],
+    "steps": [
+      "Marinate the fish in vinegar, crushed garlic, salt and pepper for at least 30 minutes.",
+      "Pat dry and fry until crisp on both sides.",
+      "Serve with garlic rice and a vinegar dip."
+    ],
+    "image_url": "/images/daing-na-isda.jpg",
+    "image_credit": "Photo: bingbing on flickr (CC BY 2.0)"
+  },
+  {
+    "id": "pancit-bihon",
+    "name": "Pancit Bihon",
+    "description": "Stir-fried rice noodles with chicken and vegetables.",
+    "cooking_time_minutes": 30,
+    "servings": 5,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "rice noodle",
+      "chicken",
+      "cabbage",
+      "carrot",
+      "soy sauce",
+      "garlic",
+      "onion"
+    ],
+    "steps": [
+      "Soak the rice noodles in water for 10 minutes and drain.",
+      "Saute garlic and onion, add sliced chicken and cook through.",
+      "Add carrot, cabbage, soy sauce and a cup of water. Bring to a boil.",
+      "Add the noodles and toss until the liquid is absorbed."
+    ],
+    "image_url": "/images/pancit-bihon.jpg",
+    "image_credit": "Photo: Obsidian Soul (CC0)"
+  },
+  {
+    "id": "bicol-express",
+    "name": "Bicol Express",
+    "description": "Spicy pork stewed in coconut milk with shrimp paste.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "coconut milk",
+      "chili",
+      "shrimp paste",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Saute garlic and onion, add cubed pork and brown it.",
+      "Stir in shrimp paste, then the coconut milk.",
+      "Simmer 30 minutes until the pork is tender and the sauce thickens.",
+      "Add sliced chilies and cook 5 more minutes."
+    ],
+    "image_url": "/images/bicol-express.jpg",
+    "image_credit": "Photo: Ymirazudis (CC BY-SA 4.0)"
+  },
+  {
+    "id": "mango-float",
+    "name": "Mango Float",
+    "description": "No-bake layered dessert of graham crackers, cream and mango.",
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "graham cracker",
+      "mango",
+      "cream",
+      "condensed milk"
+    ],
+    "steps": [
+      "Whip the cream with condensed milk until thick.",
+      "Layer graham crackers, cream and sliced mango in a dish.",
+      "Repeat the layers, ending with cream and mango.",
+      "Chill for at least 4 hours."
+    ],
+    "image_url": "/images/mango-float.jpg",
+    "image_credit": "Photo: Obsidian Soul (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pork-sisig",
+    "name": "Pork Sisig",
+    "description": "Sizzling chopped pork with onion, chili and calamansi.",
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "onion",
+      "chili",
+      "calamansi",
+      "mayonnaise",
+      "egg"
+    ],
+    "steps": [
+      "Boil the pork until tender, then grill or pan-fry until crisp.",
+      "Chop finely and mix with chopped onion, chili and calamansi juice.",
+      "Fry the mixture in a hot pan, then stir in a little mayonnaise.",
+      "Top with an egg and serve sizzling."
+    ],
+    "image_url": "/images/pork-sisig.jpg",
+    "image_credit": "Photo: Bing Ramos (CC BY 2.0)"
+  },
+  {
+    "id": "filipino-spaghetti",
+    "name": "Filipino-Style Spaghetti",
+    "description": "Sweet tomato spaghetti with ground pork, hotdog and cheese.",
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "pork",
+      "hotdog",
+      "tomato sauce",
+      "banana ketchup",
+      "cheese",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Cook the pasta and drain.",
+      "Saute garlic and onion, add ground pork and sliced hotdogs and cook through.",
+      "Add tomato sauce and banana ketchup. Simmer 15 minutes.",
+      "Serve the sauce over the pasta and top with grated cheese."
+    ],
+    "image_url": "/images/filipino-spaghetti.jpg",
+    "image_credit": "Photo: Arnold Gatilao (CC BY 2.0)"
+  },
+  {
+    "id": "tapsilog",
+    "name": "Tapsilog",
+    "description": "Sweet-savory beef tapa with garlic rice and a fried egg.",
+    "cooking_time_minutes": 30,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "beef",
+      "soy sauce",
+      "sugar",
+      "garlic",
+      "rice",
+      "egg"
+    ],
+    "steps": [
+      "Marinate thin beef slices in soy sauce, sugar and garlic for at least 30 minutes.",
+      "Pan-fry the beef until caramelized.",
+      "Fry cooked rice with toasted garlic.",
+      "Serve with a fried egg."
+    ],
+    "image_url": "/images/tapsilog.jpg",
+    "image_credit": "Photo: Halil S. Mucaram (CC BY 3.0)"
+  },
+  {
+    "id": "hotsilog",
+    "name": "Hotsilog",
+    "description": "Hotdogs with garlic rice and a fried egg.",
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "hotdog",
+      "rice",
+      "egg",
+      "garlic"
+    ],
+    "steps": [
+      "Slit and pan-fry the hotdogs until browned.",
+      "Fry cooked rice with toasted garlic.",
+      "Fry the eggs and serve everything together."
+    ],
+    "image_url": "/images/hotsilog.jpg",
+    "image_credit": "Photo: Ralff Nestor Nacor (CC BY-SA 4.0)"
+  },
+  {
+    "id": "banana-cue",
+    "name": "Banana Cue",
+    "description": "Saba bananas fried and coated in caramelized brown sugar.",
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "banana",
+      "brown sugar"
+    ],
+    "steps": [
+      "Peel the saba bananas.",
+      "Fry in hot oil until lightly golden.",
+      "Add brown sugar and keep turning until coated in caramel.",
+      "Skewer and let cool slightly."
+    ],
+    "image_url": "/images/banana-cue.jpg",
+    "image_credit": "Photo: FBenjr123 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chicken-teriyaki",
+    "name": "Chicken Teriyaki",
+    "description": "Pan-fried chicken in a glossy sweet soy glaze.",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "sugar",
+      "ginger",
+      "garlic",
+      "rice"
+    ],
+    "steps": [
+      "Pan-fry the chicken skin-side down until crisp, then flip and cook through.",
+      "Mix soy sauce, sugar, grated ginger and garlic with a splash of water.",
+      "Pour into the pan and simmer until it coats the chicken.",
+      "Slice and serve over rice."
+    ],
+    "image_url": "/images/chicken-teriyaki.jpg",
+    "image_credit": "Photo: Daderot (CC0)"
+  },
+  {
+    "id": "oyakodon",
+    "name": "Oyakodon",
+    "description": "Japanese chicken and egg rice bowl.",
+    "cooking_time_minutes": 25,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "chicken",
+      "egg",
+      "onion",
+      "soy sauce",
+      "rice"
+    ],
+    "steps": [
+      "Simmer sliced onion in a little water, soy sauce and a pinch of sugar.",
+      "Add bite-size chicken and cook through.",
+      "Pour beaten eggs over, cover, and cook until just set.",
+      "Slide over bowls of rice."
+    ],
+    "image_url": "/images/oyakodon.jpg",
+    "image_credit": "Photo: Ocdp (CC0)"
+  },
+  {
+    "id": "miso-soup",
+    "name": "Miso Soup",
+    "description": "Light Japanese soup with tofu and seaweed.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "miso",
+      "tofu",
+      "seaweed",
+      "green onion"
+    ],
+    "steps": [
+      "Bring 3 cups of water to a simmer.",
+      "Add cubed tofu and seaweed and warm through.",
+      "Turn off the heat and whisk in the miso. Do not boil it.",
+      "Top with green onion."
+    ],
+    "image_url": "/images/miso-soup.jpg",
+    "image_credit": "Photo: Ocdp (CC0)"
+  },
+  {
+    "id": "upgraded-instant-noodles",
+    "name": "Upgraded Instant Noodles",
+    "description": "Instant noodles made into a proper meal with egg and vegetables.",
+    "cooking_time_minutes": 10,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "instant noodle",
+      "egg",
+      "cabbage",
+      "green onion"
+    ],
+    "steps": [
+      "Boil the noodles with sliced cabbage.",
+      "Crack in an egg and let it poach for 2 minutes.",
+      "Stir in the seasoning and top with green onion."
+    ],
+    "image_url": "/images/upgraded-instant-noodles.jpg",
+    "image_credit": "Photo: Fitrah 9131 (CC0)"
+  },
+  {
+    "id": "kimchi-fried-rice",
+    "name": "Kimchi Fried Rice",
+    "description": "Spicy, tangy fried rice topped with a fried egg.",
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "rice",
+    "ingredients": [
+      "kimchi",
+      "rice",
+      "egg",
+      "green onion",
+      "soy sauce"
+    ],
+    "steps": [
+      "Fry chopped kimchi in a little oil for 2 minutes.",
+      "Add cooked rice and a splash of kimchi juice and soy sauce. Stir-fry well.",
+      "Top with a fried egg and green onion."
+    ],
+    "image_url": "/images/kimchi-fried-rice.jpg",
+    "image_credit": "Photo: Sharon Ang (CC0)"
+  },
+  {
+    "id": "beef-bulgogi",
+    "name": "Beef Bulgogi",
+    "description": "Korean sweet soy marinated beef.",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "soy sauce",
+      "sugar",
+      "garlic",
+      "sesame oil",
+      "green onion",
+      "onion"
+    ],
+    "steps": [
+      "Marinate thin beef slices in soy sauce, sugar, garlic and sesame oil for 20 minutes.",
+      "Cook over high heat with sliced onion until caramelized.",
+      "Top with green onion and serve with rice."
+    ],
+    "image_url": "/images/beef-bulgogi.jpg",
+    "image_credit": "Photo: Debbie Tingzon (CC BY 2.0)"
+  },
+  {
+    "id": "japchae",
+    "name": "Japchae",
+    "description": "Korean glass noodles stir-fried with beef and vegetables.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "glass noodle",
+      "beef",
+      "spinach",
+      "carrot",
+      "onion",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "steps": [
+      "Cook the glass noodles, drain, and toss with a little sesame oil.",
+      "Stir-fry the beef, then the onion and carrot separately. Blanch the spinach.",
+      "Combine everything with soy sauce, a pinch of sugar and sesame oil.",
+      "Toss well and serve warm or at room temperature."
+    ],
+    "image_url": "/images/japchae.jpg",
+    "image_credit": "Photo: Jordi Sanchez (CC BY-SA 2.0)"
+  },
+  {
+    "id": "thai-basil-chicken",
+    "name": "Thai Basil Chicken (Pad Kra Pao)",
+    "description": "Spicy stir-fried chicken with holy basil, served with rice and egg.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "basil",
+      "chili",
+      "garlic",
+      "soy sauce",
+      "fish sauce",
+      "rice",
+      "egg"
+    ],
+    "steps": [
+      "Pound garlic and chili together.",
+      "Stir-fry with minced chicken over high heat until cooked.",
+      "Season with soy sauce, fish sauce and a pinch of sugar. Stir in basil.",
+      "Serve over rice with a crispy fried egg."
+    ],
+    "image_url": "/images/thai-basil-chicken.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles with shrimp, egg and peanuts.",
+    "cooking_time_minutes": 30,
+    "servings": 2,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "rice noodle",
+      "shrimp",
+      "egg",
+      "tofu",
+      "bean sprout",
+      "peanut",
+      "lime",
+      "fish sauce"
+    ],
+    "steps": [
+      "Soak the rice noodles until pliable and drain.",
+      "Stir-fry tofu and shrimp, push aside, and scramble the egg.",
+      "Add noodles with fish sauce, a little sugar and lime juice. Toss until soft.",
+      "Add bean sprouts and top with crushed peanuts and lime."
+    ],
+    "image_url": "/images/pad-thai.jpg",
+    "image_credit": "Photo: Takeaway (CC BY-SA 3.0)"
+  },
+  {
+    "id": "thai-green-curry",
+    "name": "Thai Green Curry",
+    "description": "Fragrant coconut curry with chicken and eggplant.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "green curry paste",
+      "coconut milk",
+      "eggplant",
+      "basil"
+    ],
+    "steps": [
+      "Fry the curry paste in a little coconut milk until fragrant.",
+      "Add the chicken and cook until sealed.",
+      "Pour in the rest of the coconut milk and add eggplant. Simmer 15 minutes.",
+      "Season with fish sauce and sugar, and stir in basil."
+    ],
+    "image_url": "/images/thai-green-curry.jpg",
+    "image_credit": "Photo: Takeaway (CC BY-SA 3.0)"
+  },
+  {
+    "id": "tom-yum",
+    "name": "Tom Yum Soup",
+    "description": "Hot and sour Thai soup with shrimp and mushroom.",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "soup",
+    "ingredients": [
+      "shrimp",
+      "lemongrass",
+      "mushroom",
+      "lime",
+      "chili",
+      "fish sauce"
+    ],
+    "steps": [
+      "Simmer bruised lemongrass in water for 5 minutes.",
+      "Add mushrooms and chili, then the shrimp.",
+      "Cook until the shrimp turn pink.",
+      "Off the heat, season with fish sauce and lime juice."
+    ],
+    "image_url": "/images/tom-yum.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "mapo-tofu",
+    "name": "Mapo Tofu",
+    "description": "Silky tofu in a spicy pork and chili bean sauce.",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "tofu",
+      "pork",
+      "chili bean paste",
+      "garlic",
+      "ginger",
+      "green onion"
+    ],
+    "steps": [
+      "Brown ground pork, then add garlic, ginger and chili bean paste.",
+      "Add a cup of water and bring to a simmer.",
+      "Gently add cubed tofu and simmer 5 minutes.",
+      "Thicken with a little cornstarch slurry and top with green onion."
+    ],
+    "image_url": "/images/mapo-tofu.jpg",
+    "image_credit": "Photo: Sichuanfoodlover (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tomato-egg-stir-fry",
+    "name": "Tomato and Egg Stir-Fry",
+    "description": "Classic Chinese home dish of soft eggs and saucy tomatoes.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "tomato",
+      "egg",
+      "green onion",
+      "sugar"
+    ],
+    "steps": [
+      "Scramble the eggs until just set and remove.",
+      "Stir-fry tomato wedges until they soften into a sauce.",
+      "Add a pinch of sugar and salt, return the eggs, and toss.",
+      "Top with green onion."
+    ],
+    "image_url": "/images/tomato-egg-stir-fry.jpg",
+    "image_credit": "Photo: Huangdan2060 (CC BY 3.0)"
+  },
+  {
+    "id": "sweet-sour-pork",
+    "name": "Sweet and Sour Pork",
+    "description": "Crispy pork with pineapple and peppers in a tangy sauce.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "bell pepper",
+      "pineapple",
+      "onion",
+      "vinegar",
+      "ketchup",
+      "sugar",
+      "cornstarch"
+    ],
+    "steps": [
+      "Coat pork pieces in cornstarch and fry until crisp.",
+      "Stir-fry onion and bell pepper briefly.",
+      "Add vinegar, ketchup, sugar and pineapple. Thicken with cornstarch slurry.",
+      "Toss in the pork and serve right away."
+    ],
+    "image_url": "/images/sweet-sour-pork.jpg",
+    "image_credit": "Photo: Walter Grassroot (CC BY-SA 3.0)"
+  },
+  {
+    "id": "beef-broccoli",
+    "name": "Beef and Broccoli",
+    "description": "Tender beef and broccoli in a garlicky soy sauce.",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "broccoli",
+      "soy sauce",
+      "garlic",
+      "ginger",
+      "cornstarch"
+    ],
+    "steps": [
+      "Toss thin beef slices with soy sauce and cornstarch.",
+      "Blanch the broccoli for 1 minute.",
+      "Sear the beef over high heat, add garlic and ginger.",
+      "Add broccoli and a splash of soy sauce and water. Toss until glossy."
+    ],
+    "image_url": "/images/beef-broccoli.jpg",
+    "image_credit": "Photo: jeffreyw (CC BY 2.0)"
+  },
+  {
+    "id": "fresh-spring-rolls",
+    "name": "Vietnamese Fresh Spring Rolls",
+    "description": "Rice paper rolls with shrimp, noodles and crisp vegetables.",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "snack",
+    "ingredients": [
+      "rice paper",
+      "shrimp",
+      "rice noodle",
+      "lettuce",
+      "carrot",
+      "cucumber"
+    ],
+    "steps": [
+      "Cook the shrimp and rice noodles. Slice the vegetables thinly.",
+      "Dip a rice paper sheet in warm water for a few seconds.",
+      "Layer lettuce, noodles, vegetables and shrimp, then roll tightly.",
+      "Serve with peanut or fish sauce dip."
+    ],
+    "image_url": "/images/fresh-spring-rolls.jpg",
+    "image_credit": "Photo: N509FZ (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dal",
+    "name": "Dal (Lentil Curry)",
+    "description": "Warming spiced lentils, great with rice or flatbread.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "lentil",
+      "onion",
+      "tomato",
+      "garlic",
+      "ginger",
+      "turmeric",
+      "cumin"
+    ],
+    "steps": [
+      "Simmer the lentils with turmeric in water until soft, about 25 minutes.",
+      "Fry cumin, then onion, garlic, ginger and tomato until soft.",
+      "Stir into the lentils and simmer 5 minutes. Season with salt."
+    ],
+    "image_url": "/images/dal.jpg",
+    "image_credit": "Photo: Wind Hashira (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chana-masala",
+    "name": "Chana Masala",
+    "description": "Chickpeas simmered in a spiced tomato and onion sauce.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "chickpea",
+      "onion",
+      "tomato",
+      "garlic",
+      "ginger",
+      "garam masala"
+    ],
+    "steps": [
+      "Fry onion until golden, then add garlic and ginger.",
+      "Add chopped tomato and garam masala and cook until saucy.",
+      "Add the chickpeas and a little water. Simmer 15 minutes."
+    ],
+    "image_url": "/images/chana-masala.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "description": "Mild, creamy tomato curry with tender chicken.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "butter",
+      "tomato sauce",
+      "cream",
+      "garlic",
+      "ginger",
+      "garam masala"
+    ],
+    "steps": [
+      "Brown the chicken in butter and set aside.",
+      "Cook garlic, ginger and garam masala in more butter for a minute.",
+      "Add tomato sauce and simmer 10 minutes.",
+      "Stir in cream and the chicken and simmer until cooked through."
+    ],
+    "image_url": "/images/butter-chicken.jpg",
+    "image_credit": "Photo: stu_spivack (CC BY-SA 2.0)"
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "name": "Spaghetti Bolognese",
+    "description": "Slow-simmered beef and tomato sauce over pasta.",
+    "cooking_time_minutes": 50,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "beef",
+      "tomato sauce",
+      "onion",
+      "garlic",
+      "carrot"
+    ],
+    "steps": [
+      "Soften finely chopped onion, carrot and garlic.",
+      "Add ground beef and brown it.",
+      "Add tomato sauce and simmer for at least 30 minutes.",
+      "Serve over cooked pasta."
+    ],
+    "image_url": "/images/spaghetti-bolognese.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "carbonara",
+    "name": "Spaghetti Carbonara",
+    "description": "Pasta in a silky egg and cheese sauce with crispy bacon.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "medium",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "bacon",
+      "egg",
+      "cheese",
+      "garlic"
+    ],
+    "steps": [
+      "Cook the pasta. Save a cup of the cooking water.",
+      "Fry bacon with garlic until crisp.",
+      "Mix eggs with grated cheese and lots of black pepper.",
+      "Off the heat, toss pasta with bacon, then the egg mixture and a splash of pasta water until creamy."
+    ],
+    "image_url": "/images/carbonara.jpg",
+    "image_credit": "Photo: Javier Somoza (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pesto-pasta",
+    "name": "Pesto Pasta",
+    "description": "Pasta tossed in fresh basil and garlic pesto.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "basil",
+      "garlic",
+      "cheese",
+      "olive oil"
+    ],
+    "steps": [
+      "Cook the pasta.",
+      "Blend basil, garlic, cheese and olive oil into a paste.",
+      "Toss with the pasta and a splash of pasta water."
+    ],
+    "image_url": "/images/pesto-pasta.jpg",
+    "image_credit": "Photo: Marco Del Torchio 95 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "mac-and-cheese",
+    "name": "Mac and Cheese",
+    "description": "Creamy stovetop macaroni and cheese.",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "macaroni",
+      "cheese",
+      "milk",
+      "butter",
+      "flour"
+    ],
+    "steps": [
+      "Cook the macaroni and drain.",
+      "Melt butter, stir in flour, then whisk in milk until thick.",
+      "Melt in the cheese and season.",
+      "Stir in the macaroni."
+    ],
+    "image_url": "/images/mac-and-cheese.jpg",
+    "image_credit": "Photo: Stuart Spivack from Cleveland, Ohio, USA (CC BY-SA 2.0)"
+  },
+  {
+    "id": "chicken-alfredo",
+    "name": "Chicken Alfredo",
+    "description": "Pasta and chicken in a rich garlic cream sauce.",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "noodles",
+    "ingredients": [
+      "pasta",
+      "chicken",
+      "cream",
+      "cheese",
+      "garlic",
+      "butter"
+    ],
+    "steps": [
+      "Cook the pasta. Pan-fry seasoned chicken and slice it.",
+      "Melt butter, cook garlic briefly, then add cream and simmer.",
+      "Stir in cheese until smooth.",
+      "Toss with pasta and top with chicken."
+    ],
+    "image_url": "/images/chicken-alfredo.jpg",
+    "image_credit": "Photo: Jorgehdezalonso (CC BY-SA 4.0)"
+  },
+  {
+    "id": "homemade-burger",
+    "name": "Homemade Cheeseburger",
+    "description": "Juicy beef patties with cheese and fresh toppings.",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "snack",
+    "ingredients": [
+      "beef",
+      "burger bun",
+      "cheese",
+      "lettuce",
+      "tomato",
+      "onion"
+    ],
+    "steps": [
+      "Shape ground beef into patties and season with salt and pepper.",
+      "Cook in a hot pan 3 to 4 minutes per side. Add cheese at the end to melt.",
+      "Toast the buns.",
+      "Build with lettuce, tomato and onion."
+    ],
+    "image_url": "/images/homemade-burger.jpg",
+    "image_credit": "Photo: Renee Comet (Public domain)"
+  },
+  {
+    "id": "meatballs-tomato-sauce",
+    "name": "Meatballs in Tomato Sauce",
+    "description": "Tender beef meatballs simmered in tomato sauce.",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "breadcrumb",
+      "egg",
+      "onion",
+      "garlic",
+      "tomato sauce"
+    ],
+    "steps": [
+      "Mix ground beef, breadcrumbs, egg, chopped onion and garlic. Season.",
+      "Roll into balls and brown them in a pan.",
+      "Add tomato sauce and simmer 20 minutes.",
+      "Serve with pasta, rice or bread."
+    ],
+    "image_url": "/images/meatballs-tomato-sauce.jpg",
+    "image_credit": "Photo: Juan Emilio Prades Bel (CC BY 4.0)"
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "description": "Savory beef and vegetables under a mashed potato crust.",
+    "cooking_time_minutes": 75,
+    "servings": 6,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "potato",
+      "carrot",
+      "onion",
+      "pea",
+      "butter",
+      "milk"
+    ],
+    "steps": [
+      "Boil and mash the potatoes with butter and milk.",
+      "Brown ground beef with onion and carrot, add peas and a little water, and simmer.",
+      "Spread the beef in a baking dish and cover with mash.",
+      "Bake at 200 C for 25 minutes until golden."
+    ],
+    "image_url": "/images/shepherds-pie.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "chicken-noodle-soup",
+    "name": "Chicken Noodle Soup",
+    "description": "Classic, soothing soup with chicken and vegetables.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "chicken",
+      "noodle",
+      "carrot",
+      "celery",
+      "onion"
+    ],
+    "steps": [
+      "Simmer the chicken with onion, carrot and celery in water for 25 minutes.",
+      "Remove the chicken and shred it.",
+      "Add noodles to the pot and cook until tender.",
+      "Return the chicken and season."
+    ],
+    "image_url": "/images/chicken-noodle-soup.jpg",
+    "image_credit": "Photo: Nichijyou123 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tomato-soup",
+    "name": "Creamy Tomato Soup",
+    "description": "Smooth tomato soup, perfect with grilled cheese.",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "tomato",
+      "onion",
+      "garlic",
+      "butter",
+      "cream"
+    ],
+    "steps": [
+      "Soften onion and garlic in butter.",
+      "Add chopped tomatoes and a cup of water. Simmer 20 minutes.",
+      "Blend until smooth, stir in cream, and season."
+    ],
+    "image_url": "/images/tomato-soup.jpg",
+    "image_credit": "Photo: E4024 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "minestrone",
+    "name": "Minestrone",
+    "description": "Italian vegetable soup with beans and pasta.",
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "tomato",
+      "carrot",
+      "celery",
+      "onion",
+      "pasta",
+      "kidney bean",
+      "zucchini"
+    ],
+    "steps": [
+      "Soften onion, carrot and celery.",
+      "Add chopped tomato and water and simmer 15 minutes.",
+      "Add zucchini, beans and small pasta and cook until the pasta is tender.",
+      "Season and serve with cheese if you have it."
+    ],
+    "image_url": "/images/minestrone.jpg",
+    "image_credit": "Photo: Katrin Morenz from Aachen, Deutschland (CC BY-SA 2.0)"
+  },
+  {
+    "id": "potato-salad",
+    "name": "Potato Salad",
+    "description": "Creamy potato salad with egg and celery.",
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "potato",
+      "egg",
+      "mayonnaise",
+      "onion",
+      "celery"
+    ],
+    "steps": [
+      "Boil cubed potatoes until tender and hard-boil the eggs.",
+      "Chop the eggs, onion and celery.",
+      "Mix everything with mayonnaise, salt and pepper. Chill before serving."
+    ],
+    "image_url": "/images/potato-salad.jpg",
+    "image_credit": "Photo: jules (CC BY 2.0)"
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw",
+    "description": "Crunchy cabbage and carrot salad in a creamy dressing.",
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "cabbage",
+      "carrot",
+      "mayonnaise",
+      "vinegar",
+      "sugar"
+    ],
+    "steps": [
+      "Finely shred the cabbage and carrot.",
+      "Mix mayonnaise, vinegar, sugar and salt.",
+      "Toss together and chill for 30 minutes."
+    ]
+  },
+  {
+    "id": "chicken-quesadilla",
+    "name": "Chicken Quesadilla",
+    "description": "Toasted tortillas filled with chicken, cheese and peppers.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "snack",
+    "ingredients": [
+      "tortilla",
+      "chicken",
+      "cheese",
+      "bell pepper",
+      "onion"
+    ],
+    "steps": [
+      "Cook sliced chicken with onion and bell pepper.",
+      "Fill a tortilla with the mixture and cheese, and fold.",
+      "Toast in a dry pan until crisp and the cheese melts. Cut into wedges."
+    ],
+    "image_url": "/images/chicken-quesadilla.jpg",
+    "image_credit": "Photo: Mike Peel (CC BY-SA 4.0)"
+  },
+  {
+    "id": "beef-tacos",
+    "name": "Beef Tacos",
+    "description": "Seasoned ground beef in tortillas with fresh toppings.",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "snack",
+    "ingredients": [
+      "tortilla",
+      "beef",
+      "lettuce",
+      "tomato",
+      "cheese",
+      "onion"
+    ],
+    "steps": [
+      "Brown ground beef with chopped onion. Season with salt, pepper and any spices you have.",
+      "Warm the tortillas.",
+      "Fill with beef, lettuce, tomato and cheese."
+    ],
+    "image_url": "/images/beef-tacos.jpg",
+    "image_credit": "Photo: Larry Miller (CC BY-SA 2.0)"
+  },
+  {
+    "id": "chili-con-carne",
+    "name": "Chili con Carne",
+    "description": "Hearty beef and bean stew with chili.",
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "beef",
+      "kidney bean",
+      "tomato",
+      "onion",
+      "garlic",
+      "chili powder"
+    ],
+    "steps": [
+      "Brown ground beef with onion and garlic.",
+      "Stir in chili powder, then add chopped tomato and beans.",
+      "Simmer 40 minutes, stirring now and then. Season to taste."
+    ],
+    "image_url": "/images/chili-con-carne.jpg",
+    "image_credit": "Photo: Aerith (CC0)"
+  },
+  {
+    "id": "garlic-butter-shrimp",
+    "name": "Garlic Butter Shrimp",
+    "description": "Juicy shrimp in a lemony garlic butter sauce.",
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "seafood",
+    "ingredients": [
+      "shrimp",
+      "butter",
+      "garlic",
+      "lemon"
+    ],
+    "steps": [
+      "Melt butter and cook minced garlic for 30 seconds.",
+      "Add the shrimp and cook until pink, about 2 minutes per side.",
+      "Finish with lemon juice and serve with rice or bread."
+    ],
+    "image_url": "/images/garlic-butter-shrimp.jpg",
+    "image_credit": "Photo: HaJunkiyada (CC BY-SA 4.0)"
+  },
+  {
+    "id": "baked-salmon",
+    "name": "Lemon Garlic Baked Salmon",
+    "description": "Simple oven-baked salmon with lemon and garlic butter.",
+    "cooking_time_minutes": 25,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "seafood",
+    "ingredients": [
+      "salmon",
+      "lemon",
+      "garlic",
+      "butter"
+    ],
+    "steps": [
+      "Place the salmon on a tray and season with salt and pepper.",
+      "Top with melted butter, garlic and lemon slices.",
+      "Bake at 200 C for 12 to 15 minutes until it flakes easily."
+    ],
+    "image_url": "/images/baked-salmon.jpg",
+    "image_credit": "Photo: MOs810 (CC BY-SA 3.0)"
+  },
+  {
+    "id": "roast-chicken-vegetables",
+    "name": "Roast Chicken with Vegetables",
+    "description": "One-tray roast chicken with potato and carrot.",
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "meat",
+    "ingredients": [
+      "chicken",
+      "potato",
+      "carrot",
+      "onion",
+      "garlic",
+      "butter"
+    ],
+    "steps": [
+      "Rub the chicken with butter, garlic, salt and pepper.",
+      "Surround with chunks of potato, carrot and onion.",
+      "Roast at 200 C for about 1 hour 15 minutes until the juices run clear.",
+      "Rest 10 minutes before carving."
+    ],
+    "image_url": "/images/roast-chicken-vegetables.jpg",
+    "image_credit": "Photo: Daderot (CC0)"
+  },
+  {
+    "id": "pork-chops-apple",
+    "name": "Pan-Seared Pork Chops with Apple",
+    "description": "Golden pork chops with buttery sauteed apple and onion.",
+    "cooking_time_minutes": 30,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "meat",
+    "ingredients": [
+      "pork",
+      "apple",
+      "onion",
+      "butter"
+    ],
+    "steps": [
+      "Season the pork chops and sear until golden and cooked through. Set aside.",
+      "In the same pan, cook sliced onion and apple in butter until soft.",
+      "Spoon over the pork chops."
+    ]
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "description": "Provencal stew of summer vegetables.",
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "vegetable",
+    "ingredients": [
+      "eggplant",
+      "zucchini",
+      "bell pepper",
+      "tomato",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Cube all the vegetables.",
+      "Soften onion and garlic, then add bell pepper and eggplant and cook 10 minutes.",
+      "Add zucchini and tomato and simmer 30 minutes until soft and saucy.",
+      "Season and serve warm or cold."
+    ],
+    "image_url": "/images/ratatouille.jpg",
+    "image_credit": "Photo: Marcus Guimarães (CC BY 2.0)"
+  },
+  {
+    "id": "fluffy-pancakes",
+    "name": "Fluffy Pancakes",
+    "description": "Classic fluffy breakfast pancakes.",
+    "cooking_time_minutes": 20,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "flour",
+      "milk",
+      "egg",
+      "sugar",
+      "butter",
+      "baking powder"
+    ],
+    "steps": [
+      "Whisk flour, sugar and baking powder.",
+      "Whisk in milk, egg and melted butter until just combined.",
+      "Cook ladlefuls on a hot greased pan until bubbles form, then flip."
+    ],
+    "image_url": "/images/fluffy-pancakes.jpg",
+    "image_credit": "Photo: Mae Mu (CC0)"
+  },
+  {
+    "id": "avocado-toast",
+    "name": "Avocado Toast with Egg",
+    "description": "Toast topped with mashed avocado and a fried egg.",
+    "cooking_time_minutes": 10,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "bread",
+      "avocado",
+      "egg",
+      "lemon"
+    ],
+    "steps": [
+      "Toast the bread.",
+      "Mash avocado with lemon juice, salt and pepper and spread on the toast.",
+      "Top with a fried or poached egg."
+    ],
+    "image_url": "/images/avocado-toast.jpg",
+    "image_credit": "Photo: Andy Li (CC0)"
+  },
+  {
+    "id": "breakfast-burrito",
+    "name": "Breakfast Burrito",
+    "description": "Tortilla wrapped around eggs, potato, bacon and cheese.",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "snack",
+    "ingredients": [
+      "tortilla",
+      "egg",
+      "potato",
+      "cheese",
+      "bacon"
+    ],
+    "steps": [
+      "Fry diced potato until crisp and cook the bacon.",
+      "Scramble the eggs.",
+      "Fill tortillas with potato, bacon, egg and cheese, and roll up."
+    ],
+    "image_url": "/images/breakfast-burrito.jpg",
+    "image_credit": "Photo: Cajsa Lilliehook from Portland (CC BY-SA 2.0)"
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "description": "Eggs poached in a spiced tomato and pepper sauce.",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "egg",
+    "ingredients": [
+      "egg",
+      "tomato",
+      "onion",
+      "bell pepper",
+      "garlic",
+      "cumin"
+    ],
+    "steps": [
+      "Soften onion, bell pepper and garlic. Add cumin.",
+      "Add chopped tomatoes and simmer until thick, about 10 minutes.",
+      "Make wells and crack in the eggs. Cover and cook until the whites set.",
+      "Serve with bread."
+    ],
+    "image_url": "/images/shakshuka.jpg",
+    "image_credit": "Photo: Calliopejen1 (CC BY-SA 3.0)"
+  },
+  {
+    "id": "overnight-oats",
+    "name": "Overnight Oats",
+    "description": "No-cook oats soaked overnight with yogurt and banana.",
+    "cooking_time_minutes": 5,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "oat",
+      "milk",
+      "yogurt",
+      "honey",
+      "banana"
+    ],
+    "steps": [
+      "Mix oats, milk, yogurt and honey in a jar.",
+      "Refrigerate overnight.",
+      "Top with sliced banana in the morning."
+    ],
+    "image_url": "/images/overnight-oats.jpg",
+    "image_credit": "Photo: Nervy8924 (CC BY-SA 4.0)"
+  },
+  {
+    "id": "banana-smoothie",
+    "name": "Banana Smoothie",
+    "description": "Creamy banana and yogurt smoothie.",
+    "cooking_time_minutes": 5,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "drink",
+    "ingredients": [
+      "banana",
+      "milk",
+      "yogurt",
+      "honey"
+    ],
+    "steps": [
+      "Blend banana, milk, yogurt and honey until smooth.",
+      "Add ice if you like it cold and thick."
+    ],
+    "image_url": "/images/banana-smoothie.jpg",
+    "image_credit": "Photo: Ourlibrary (CC0)"
+  },
+  {
+    "id": "chocolate-mug-cake",
+    "name": "Chocolate Mug Cake",
+    "description": "A single-serving chocolate cake made in the microwave.",
+    "cooking_time_minutes": 5,
+    "servings": 1,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "flour",
+      "cocoa",
+      "sugar",
+      "milk",
+      "egg",
+      "butter"
+    ],
+    "steps": [
+      "Mix flour, cocoa and sugar in a large mug.",
+      "Stir in milk, egg and melted butter until smooth.",
+      "Microwave on high for 70 to 90 seconds."
+    ],
+    "image_url": "/images/chocolate-mug-cake.jpg",
+    "image_credit": "Photo: Mimschka (CC BY-SA 4.0)"
+  },
+  {
+    "id": "banana-bread",
+    "name": "Banana Bread",
+    "description": "Moist loaf made with overripe bananas.",
+    "cooking_time_minutes": 70,
+    "servings": 8,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "banana",
+      "flour",
+      "sugar",
+      "egg",
+      "butter",
+      "baking soda"
+    ],
+    "steps": [
+      "Mash the bananas and mix in melted butter, sugar and egg.",
+      "Stir in flour and baking soda until just combined.",
+      "Pour into a loaf pan and bake at 175 C for about 55 minutes."
+    ],
+    "image_url": "/images/banana-bread.jpg",
+    "image_credit": "Photo: Shisma (CC BY 4.0)"
+  },
+  {
+    "id": "chocolate-chip-cookies",
+    "name": "Chocolate Chip Cookies",
+    "description": "Chewy cookies loaded with chocolate chips.",
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "flour",
+      "butter",
+      "sugar",
+      "brown sugar",
+      "egg",
+      "chocolate chip",
+      "baking soda"
+    ],
+    "steps": [
+      "Cream butter with both sugars, then beat in the egg.",
+      "Mix in flour and baking soda, then the chocolate chips.",
+      "Scoop onto a tray and bake at 180 C for 10 to 12 minutes."
+    ],
+    "image_url": "/images/chocolate-chip-cookies.jpg",
+    "image_credit": "Photo: Mshuang2 (CC0)"
+  },
+  {
+    "id": "mango-sticky-rice",
+    "name": "Mango Sticky Rice",
+    "description": "Thai dessert of sweet coconut sticky rice with ripe mango.",
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "difficulty": "medium",
+    "category": "dessert",
+    "ingredients": [
+      "glutinous rice",
+      "mango",
+      "coconut milk",
+      "sugar"
+    ],
+    "steps": [
+      "Soak the glutinous rice for at least 1 hour, then steam until tender.",
+      "Warm coconut milk with sugar and a pinch of salt.",
+      "Stir most of it into the rice and let it absorb for 15 minutes.",
+      "Serve with sliced mango and the remaining sauce."
+    ],
+    "image_url": "/images/mango-sticky-rice.jpg",
+    "image_credit": "Photo: Dennis Wong from Hong Kong, Hong Kong (CC BY 2.0)"
+  },
+  {
+    "id": "apple-crumble",
+    "name": "Apple Crumble",
+    "description": "Warm baked apples under a buttery oat topping.",
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "dessert",
+    "ingredients": [
+      "apple",
+      "flour",
+      "butter",
+      "sugar",
+      "oat"
+    ],
+    "steps": [
+      "Slice the apples into a baking dish and toss with a little sugar.",
+      "Rub butter into flour, oats and sugar until crumbly.",
+      "Scatter over the apples and bake at 180 C for 30 minutes."
+    ],
+    "image_url": "/images/apple-crumble.jpg",
+    "image_credit": "Photo: Jonathan Harker (CC BY 4.0)"
+  },
+  {
+    "id": "tofu-vegetable-stir-fry",
+    "name": "Tofu and Vegetable Stir-Fry",
+    "description": "Crispy tofu with colorful vegetables in soy-garlic sauce.",
+    "cooking_time_minutes": 20,
+    "servings": 3,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "tofu",
+      "broccoli",
+      "carrot",
+      "bell pepper",
+      "soy sauce",
+      "garlic"
+    ],
+    "steps": [
+      "Fry cubed tofu until golden. Set aside.",
+      "Stir-fry garlic, broccoli, carrot and bell pepper for 3 minutes.",
+      "Return the tofu, add soy sauce, and toss."
+    ]
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": "Mushroom Risotto",
+    "description": "Creamy rice slowly cooked with mushrooms and cheese.",
+    "cooking_time_minutes": 40,
+    "servings": 3,
+    "difficulty": "medium",
+    "category": "rice",
+    "ingredients": [
+      "rice",
+      "mushroom",
+      "onion",
+      "garlic",
+      "butter",
+      "cheese",
+      "chicken broth"
+    ],
+    "steps": [
+      "Cook mushrooms in butter until browned. Set aside.",
+      "Soften onion and garlic, add the rice, and stir for a minute.",
+      "Add warm broth a ladle at a time, stirring, until the rice is creamy, about 20 minutes.",
+      "Stir in the mushrooms, cheese and a knob of butter."
+    ],
+    "image_url": "/images/mushroom-risotto.jpg",
+    "image_credit": "Photo: spurekar (CC BY 2.0)"
+  },
+  {
+    "id": "egg-drop-soup",
+    "name": "Egg Drop Soup",
+    "description": "Silky Chinese soup with ribbons of egg.",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "egg",
+      "chicken broth",
+      "cornstarch",
+      "green onion"
+    ],
+    "steps": [
+      "Bring the broth to a simmer and thicken lightly with cornstarch slurry.",
+      "Slowly pour in beaten egg while stirring gently.",
+      "Season and top with green onion."
+    ],
+    "image_url": "/images/egg-drop-soup.jpg",
+    "image_credit": "Photo: Raimond Spekking (CC BY-SA 4.0)"
+  },
+  {
+    "id": "garlic-bread",
+    "name": "Garlic Bread",
+    "description": "Crisp bread with garlic butter.",
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "bread",
+    "ingredients": [
+      "bread",
+      "butter",
+      "garlic"
+    ],
+    "steps": [
+      "Mix soft butter with minced garlic and a pinch of salt.",
+      "Spread on sliced bread.",
+      "Toast in the oven or a pan until golden and crisp."
+    ],
+    "image_url": "/images/garlic-bread.jpg",
+    "image_credit": "Photo: Infrogmation (CC BY-SA 4.0)"
+  },
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "description": "Smooth chickpea dip with garlic and lemon.",
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "difficulty": "easy",
+    "category": "vegetable",
+    "ingredients": [
+      "chickpea",
+      "garlic",
+      "lemon",
+      "olive oil"
+    ],
+    "steps": [
+      "Blend chickpeas with garlic, lemon juice and a splash of water.",
+      "Drizzle in olive oil while blending until smooth.",
+      "Season with salt and serve with bread or vegetables."
+    ],
+    "image_url": "/images/hummus.jpg",
+    "image_credit": "Photo: Paul Goyette (CC BY-SA 2.0)"
+  },
+  {
+    "id": "corn-soup",
+    "name": "Corn and Egg Soup",
+    "description": "Quick, comforting corn soup with egg.",
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "category": "soup",
+    "ingredients": [
+      "corn",
+      "egg",
+      "chicken broth",
+      "onion"
+    ],
+    "steps": [
+      "Soften onion, then add the corn and broth. Simmer 10 minutes.",
+      "Slowly stir in beaten egg.",
+      "Season with salt and pepper."
+    ],
+    "image_url": "/images/corn-soup.jpg",
+    "image_credit": "Photo: Fumikas Sagisavas (CC0)"
+  }
+]

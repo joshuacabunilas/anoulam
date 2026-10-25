@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Redesign samples</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Manrope,Arial,sans-serif;background:#E9E9EC;color:#1d1d1f;padding:28px 16px 64px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:30px;font-weight:800;letter-spacing:-.02em}
+.lead{color:#555;margin:6px 0 30px;font-size:15px;max-width:760px;line-height:1.5}
+.dir{background:#fff;border-radius:14px;padding:22px 22px 26px;margin-bottom:28px}
+.dir header{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-bottom:6px}
+.dir h2{font-size:22px;font-weight:800}
+.k{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;background:#1d1d1f;color:#fff}
+.k.alt{background:#fff;color:#1d1d1f;border:1.5px solid #1d1d1f}
+.dir p{font-size:14px;color:#444;line-height:1.5;max-width:900px}
+.dir p b{color:#111}
+.sw{display:flex;gap:6px;margin:10px 0 2px}.sw i{width:26px;height:26px;border-radius:4px;border:1px solid rgba(0,0,0,.12)}
+.risk{font-size:13px;color:#8a2b1d;margin-top:6px}
+.phones{display:flex;gap:18px;overflow-x:auto;padding:16px 2px 6px}
+.ph{flex:none;width:330px;height:714px;border-radius:26px;border:7px solid #111;overflow:hidden;position:relative;background:#fff}
+.cap{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-bottom:6px}
+.ph img{display:block;width:100%;height:100%;object-fit:cover}
+
+/* ===== A. ENAMELWARE ===== */
+.A{font-family:Barlow,Arial,sans-serif;color:#17233B;background:#fff}
+.A .bar{height:50px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;border-bottom:3px solid #1E4E9C}
+.A .bar b{font-family:'Barlow Condensed';font-size:20px;letter-spacing:.08em;color:#1E4E9C}
+.A .bar u{font-size:13px;font-weight:700;color:#1E4E9C}
+.A .p{padding:14px 16px}
+.A .hd{font-family:'Barlow Condensed';font-weight:700;font-size:34px;line-height:1;text-transform:uppercase;letter-spacing:.01em}
+.A .field{margin-top:12px;height:48px;border:3px solid #1E4E9C;border-radius:24px;display:flex;align-items:center;justify-content:space-between;padding:0 4px 0 16px;color:#5B6478;font-size:15px}
+.A .field i{width:36px;height:36px;border-radius:50%;background:#1E4E9C;color:#fff;font-style:normal;display:flex;align-items:center;justify-content:center;font-size:20px}
+.A .lb{font-family:'Barlow Condensed';font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:#1E4E9C;margin:16px 0 8px}
+.A .chips{display:flex;flex-wrap:wrap;gap:6px}
+.A .c{height:32px;padding:0 12px;border-radius:16px;border:2px solid #1E4E9C;background:#1E4E9C;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center}
+.A .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid #DCE3EE;border-radius:6px;overflow:hidden;background:#DCE3EE}
+.A .t{background:#fff;margin:1px;height:84px;padding:9px;display:flex;flex-direction:column;justify-content:space-between;font-weight:700;font-size:13px;line-height:1.1}
+.A .t small{font-weight:400;color:#5B6478;font-size:11px}
+.A .t.on{background:#EAF0FA;box-shadow:inset 0 0 0 2px #1E4E9C}
+.A .cta{position:absolute;left:14px;right:14px;bottom:14px;height:52px;border-radius:26px;background:#C8312B;color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-size:20px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 3px 0 #8E1F1A}
+.A .plate{display:flex;gap:12px;align-items:center;padding:10px;border:3px solid #1E4E9C;border-radius:18px;margin-bottom:10px}
+.A .plate.miss{border-color:#C8312B}
+.A .plate .im{width:84px;height:84px;border-radius:50%;overflow:hidden;flex:none;box-shadow:0 0 0 4px #fff,0 0 0 7px #1E4E9C}
+.A .plate.miss .im{box-shadow:0 0 0 4px #fff,0 0 0 7px #C8312B}
+.A .plate b{font-family:'Barlow Condensed';font-size:22px;text-transform:uppercase;line-height:1;display:block}
+.A .plate span{font-size:13px;color:#5B6478}
+.A .st{display:inline-block;margin-top:6px;font-size:12px;font-weight:700;padding:2px 10px;border-radius:10px;background:#1E4E9C;color:#fff}
+.A .miss .st{background:#C8312B}
+.A .hero{height:250px;position:relative;background:#fff}
+.A .hero .im{position:absolute;left:50%;top:22px;transform:translateX(-50%);width:210px;height:210px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 7px #fff,0 0 0 12px #1E4E9C,0 10px 24px rgba(0,0,0,.18)}
+.A .rows div{display:flex;justify-content:space-between;padding:9px 0;border-bottom:2px dotted #DCE3EE;font-size:15px}
+.A .num{display:flex;gap:10px;margin-top:10px;font-size:14px;line-height:1.4}
+.A .num i{flex:none;width:26px;height:26px;border-radius:50%;border:2px solid #1E4E9C;color:#1E4E9C;font-style:normal;font-weight:700;display:flex;align-items:center;justify-content:center}
+
+/* ===== B. INDEX CARD BOX ===== */
+.B{font-family:'IBM Plex Sans',Arial,sans-serif;color:#22252B;background:#F1F2F4}
+.B .bar{height:50px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:#fff;border-bottom:1px solid #D9DCE1}
+.B .bar b{font-weight:700;font-size:15px}
+.B .bar u{font-family:'IBM Plex Mono';font-size:12px}
+.B .card{background:#fff;margin:12px;border-radius:3px;box-shadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.06);position:relative;background-image:repeating-linear-gradient(#fff 0 27px,#C9DCF0 27px 28px);background-position:0 46px}
+.B .card .top{height:46px;border-bottom:2px solid #D2463C;background:#fff;padding:12px 14px 0;font-weight:700;font-size:18px;display:flex;justify-content:space-between}
+.B .card .top em{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-size:12px;color:#6A707C;padding-top:4px}
+.B .ln{padding:0 14px;line-height:28px;font-size:15px}
+.B .ln s{color:#9AA0AA}
+.B .mono{font-family:'IBM Plex Mono';font-size:12px;color:#6A707C}
+.B .field{margin:0 14px;height:44px;border-bottom:2px solid #22252B;display:flex;align-items:flex-end;padding-bottom:8px;color:#6A707C;font-size:15px;justify-content:space-between}
+.B .tabs{display:flex;gap:4px;padding:10px 12px 0;overflow:hidden}
+.B .tab{flex:none;background:#E9D6A5;border-radius:6px 6px 0 0;padding:7px 11px 9px;font-size:12px;font-weight:600}
+.B .tab.on{background:#fff;box-shadow:0 -1px 3px rgba(0,0,0,.08)}
+.B .drawer{background:#fff;margin:0 12px;padding:12px 14px;border-radius:0 3px 3px 3px;font-size:14px;line-height:2}
+.B .drawer span{display:inline-block;margin-right:12px}
+.B .drawer span.on{font-weight:700;text-decoration:underline;text-decoration-color:#D2463C;text-decoration-thickness:2px}
+.B .cta{position:absolute;left:12px;right:12px;bottom:14px;height:52px;background:#22252B;color:#fff;border-radius:3px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
+.B .rc{background:#fff;margin:10px 12px;border-radius:3px;box-shadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.06);display:flex;overflow:hidden;border-top:3px solid #D2463C}
+.B .rc .im{width:108px;flex:none;transform:rotate(0deg)}
+.B .rc div.tx{padding:10px 12px}
+.B .rc b{font-size:17px;display:block}
+.B .ok{color:#2F7A3F;font-weight:600;font-size:13px}.B .no{color:#B23A2E;font-weight:600;font-size:13px}
+.B .photo{margin:14px 14px 0;height:190px;border:6px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.18);transform:rotate(-1.5deg);overflow:hidden}
+
+/* ===== C. STREAMING SHELF ===== */
+.C{font-family:Manrope,Arial,sans-serif;color:#15171A;background:#FAFAF8}
+.C .bar{height:50px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.C .bar b{font-weight:800;font-size:18px}
+.C .p{padding:4px 16px}
+.C .field{height:48px;border-radius:12px;background:#EFEFEB;display:flex;align-items:center;padding:0 14px;color:#6B6E73;font-size:15px}
+.C .rowh{display:flex;justify-content:space-between;align-items:baseline;padding:16px 16px 8px;font-weight:800;font-size:17px}
+.C .rowh span{font-size:13px;color:#1F8A4C;font-weight:600}
+.C .rail{display:flex;gap:10px;padding:0 16px;overflow:hidden}
+.C .tile{flex:none;width:118px;height:150px;border-radius:12px;overflow:hidden;position:relative}
+.C .tile.big{width:190px;height:220px;box-shadow:0 0 0 3px #1F8A4C,0 10px 22px rgba(0,0,0,.18)}
+.C .tile .lab{position:absolute;left:0;right:0;bottom:0;padding:24px 10px 9px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-weight:800;font-size:13px;line-height:1.15}
+.C .tile .lab small{display:block;font-weight:600;font-size:11px;margin-top:3px;opacity:.95}
+.C .ing{flex:none;width:96px;height:96px;border-radius:12px;background:#fff;border:1px solid #E1E1DC;display:flex;flex-direction:column;justify-content:flex-end;padding:9px;font-weight:700;font-size:13px}
+.C .ing.on{border:2px solid #1F8A4C;background:#EEF7F1}
+.C .ing small{font-weight:600;font-size:11px;color:#6B6E73}
+.C .cta{position:absolute;left:16px;right:16px;bottom:14px;height:52px;border-radius:12px;background:#15171A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px}
+.C .dim{opacity:.45}
+.C .hero{height:300px;position:relative}
+.C .hero .lab{position:absolute;left:0;right:0;bottom:0;padding:50px 16px 16px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff}
+.C .hero b{font-size:28px;font-weight:800;display:block;line-height:1.05}
+.C .pills{display:flex;gap:6px;padding:14px 16px 0;flex-wrap:wrap}
+.C .pill{font-size:13px;font-weight:700;padding:6px 11px;border-radius:999px;background:#EFEFEB}
+.C .pill.g{background:#E3F2E8;color:#16683A}.C .pill.r{background:#FBE7E2;color:#9C2F1E}
+</style></head><body><div class="wrap">
+<h1>Full redesign: three directions</h1>
+<p class="lead">Each direction is shown on all three screens (home, results, recipe) with your real food photos. Pick one, mix parts ("A's colours with C's rows"), or ask for a new set.</p>
+
+<!-- A -->
+<section class="dir">
+<header><span class="k">The roll</span><h2>A · Enamelware &amp; kitchen tiles</h2></header>
+<p><b>The kitchen itself.</b> Glossy white enamel with a cobalt rim on everything you can touch; photos served on round enamel plates; the category shelf laid out like white wall tiles with grout lines. Red rim = something's missing, so state reads at a glance. Condensed capitals like an enamel sign.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#1E4E9C"></i><i style="background:#C8312B"></i><i style="background:#17233B"></i><i style="background:#DCE3EE"></i></div>
+<p style="margin-top:6px">Borrowed from set-aside directions: <b>state by line, not only colour</b> (missing items get a dotted rule) · <b>steps stamp "done"</b> instead of vanishing.</p>
+<p class="risk">Risk: can drift retro or cute if the rims get thick and bubbly.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph A">
+<div class="bar"><b>WHAT TO COOK</b><u>Clear all</u></div>
+<div class="p"><div class="hd">What's in your kitchen?</div>
+<div class="field">Search or add an ingredient<i>+</i></div>
+<div class="lb">Your ingredients · 4</div>
+<div class="chips"><div class="c">Chicken ✕</div><div class="c">Garlic ✕</div><div class="c">Soy sauce ✕</div><div class="c">Rice ✕</div></div>
+<div class="lb">Pantry</div>
+<div class="tiles"><div class="t on">Meat &amp; protein<small>1 selected</small></div><div class="t">Seafood<small>9 items</small></div><div class="t">Eggs &amp; dairy<small>11 items</small></div><div class="t on">Vegetables<small>1 selected</small></div><div class="t">Fruits<small>8 items</small></div><div class="t on">Rice &amp; noodles<small>1 selected</small></div><div class="t on">Sauces<small>1 selected</small></div><div class="t">Herbs &amp; spices<small>12 items</small></div><div class="t">Baking<small>10 items</small></div></div>
+</div><div class="cta">Find recipes (4)</div></div></div>
+
+<div><div class="cap">Results</div><div class="ph A">
+<div class="bar"><b>RECIPES</b><u>Edit</u></div>
+<div class="p"><div class="lb" style="margin-top:2px">Using chicken, garlic, soy sauce, rice</div>
+<div class="plate"><div class="im"><img src="../../../backend/data/images/egg-fried-rice.jpg"></div><div><b>Egg fried rice</b><span>15 min · Easy</span><br><span class="st">Ready to cook</span></div></div>
+<div class="plate miss"><div class="im"><img src="../../../backend/data/images/chicken-adobo.jpg"></div><div><b>Chicken adobo</b><span>45 min · Easy</span><br><span class="st">Missing 1</span></div></div>
+<div class="plate miss"><div class="im"><img src="../../../backend/data/images/chicken-teriyaki.jpg"></div><div><b>Chicken teriyaki</b><span>30 min · Easy</span><br><span class="st">Missing 2</span></div></div>
+<div class="plate miss"><div class="im"><img src="../../../backend/data/images/chicken-tinola.jpg"></div><div><b>Chicken tinola</b><span>40 min · Easy</span><br><span class="st">Missing 2</span></div></div>
+</div></div></div>
+
+<div><div class="cap">Recipe</div><div class="ph A">
+<div class="hero"><div class="im"><img src="../../../backend/data/images/chicken-adobo.jpg"></div></div>
+<div class="p"><div class="hd" style="font-size:30px;text-align:center">Chicken adobo</div>
+<p style="text-align:center;font-size:13px;color:#5B6478;margin-top:4px">45 min · 4 servings · Easy</p>
+<div class="lb">You have</div>
+<div class="rows"><div><span>Chicken</span><span>✓</span></div><div><span>Garlic</span><span>✓</span></div><div><span>Soy sauce</span><span>✓</span></div></div>
+<div class="lb" style="color:#C8312B">Still need</div>
+<div class="rows"><div style="border-bottom-style:dashed;border-color:#C8312B"><span>Vinegar</span><span>🛒</span></div></div>
+<div class="lb">Steps</div>
+<div class="num"><i>1</i>Combine chicken, soy sauce, vinegar and garlic. Marinate 30 min.</div>
+</div></div></div>
+</div>
+</section>
+
+<!-- B -->
+<section class="dir">
+<header><span class="k alt">Impeccable's pick</span><h2>B · Recipe index card box</h2></header>
+<p><b>Grandma's recipe box, made precise.</b> Every recipe is an index card: red header rule, pale blue lines, your ingredients written on the lines and what's missing struck out. Categories are manila divider tabs. Times and counts in a typewriter-style mono. Photos are clipped on like a snapshot.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#D2463C"></i><i style="background:#C9DCF0"></i><i style="background:#E9D6A5"></i><i style="background:#22252B"></i></div>
+<p class="risk">Risk: familiar and nostalgic; the obvious "recipe" metaphor.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph B">
+<div class="bar"><b>What to Cook</b><u>CLEAR ALL</u></div>
+<div class="card" style="height:250px"><div class="top">What's in your kitchen?<em>4 / 30</em></div>
+<div class="ln">Chicken</div><div class="ln">Garlic</div><div class="ln">Soy sauce</div><div class="ln">Rice</div><div class="ln" style="color:#6A707C">+ add an ingredient…</div></div>
+<div class="tabs"><div class="tab on">Meat · 1</div><div class="tab">Seafood</div><div class="tab">Eggs</div><div class="tab">Veg · 1</div><div class="tab">Fruit</div></div>
+<div class="drawer"><span class="on">Chicken</span><span>Pork</span><span>Beef</span><span>Ground pork</span><span>Ground beef</span><span>Tofu</span><span>Bacon</span><span>Hotdog</span><span>Corned beef</span><span>Spam</span></div>
+<div class="cta">Find recipes (4)</div></div></div>
+
+<div><div class="cap">Results</div><div class="ph B">
+<div class="bar"><b>Recipes</b><u>EDIT</u></div>
+<p class="mono" style="padding:10px 14px 0">chicken, garlic, soy sauce, rice · 12 cards</p>
+<div class="rc"><div class="im"><img src="../../../backend/data/images/egg-fried-rice.jpg"></div><div class="tx"><b>Egg fried rice</b><span class="mono">15 MIN · EASY</span><br><span class="ok">✓ Ready to cook</span></div></div>
+<div class="rc"><div class="im"><img src="../../../backend/data/images/chicken-adobo.jpg"></div><div class="tx"><b>Chicken adobo</b><span class="mono">45 MIN · EASY</span><br><span class="no">Missing: vinegar</span></div></div>
+<div class="rc"><div class="im"><img src="../../../backend/data/images/chicken-teriyaki.jpg"></div><div class="tx"><b>Chicken teriyaki</b><span class="mono">30 MIN · EASY</span><br><span class="no">Missing: sugar, mirin</span></div></div>
+<div class="rc"><div class="im"><img src="../../../backend/data/images/chicken-tinola.jpg"></div><div class="tx"><b>Chicken tinola</b><span class="mono">40 MIN · EASY</span><br><span class="no">Missing: ginger, papaya</span></div></div>
+</div></div>
+
+<div><div class="cap">Recipe</div><div class="ph B">
+<div class="photo"><img src="../../../backend/data/images/chicken-adobo.jpg"></div>
+<div class="card" style="margin-top:16px"><div class="top">Chicken adobo<em>45 MIN · SERVES 4</em></div>
+<div class="ln">Chicken ✓</div><div class="ln">Garlic ✓</div><div class="ln">Soy sauce ✓</div><div class="ln"><s>Vinegar</s> <span class="no">need</span></div>
+<div class="ln" style="font-weight:700;margin-top:4px">1. Combine chicken, soy sauce,</div><div class="ln">vinegar and garlic. Marinate.</div><div class="ln">2. Simmer 30 minutes.</div></div>
+</div></div>
+</div>
+</section>
+
+<!-- C -->
+<section class="dir">
+<header><span class="k alt">Challenger · competitive</span><h2>C · Streaming shelf</h2></header>
+<p><b>Browse dishes like shows.</b> Results come as horizontal rows ("Ready to cook", "Need 1 more", "Soups"); big photo tiles, the one you land on grows and shows details while the rest of the row dims. Home uses the same rows for pantry categories. One green accent marks focus and "ready".</p>
+<div class="sw"><i style="background:#FAFAF8"></i><i style="background:#15171A"></i><i style="background:#1F8A4C"></i><i style="background:#EFEFEB"></i></div>
+<p class="risk">Risk: closest to familiar app patterns; photos carry all the character.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph C">
+<div class="bar"><b>What to Cook</b><span style="font-size:13px;font-weight:700">Clear all</span></div>
+<div class="p"><div class="field">Search or add an ingredient</div></div>
+<div class="rowh">Your ingredients <span>4</span></div>
+<div class="rail"><div class="ing on">Chicken<small>Meat</small></div><div class="ing on">Garlic<small>Veg</small></div><div class="ing on">Soy sauce<small>Sauces</small></div></div>
+<div class="rowh">Vegetables <span>See all</span></div>
+<div class="rail"><div class="ing">Onion</div><div class="ing on">Garlic</div><div class="ing">Tomatoes</div><div class="ing">Potatoes</div></div>
+<div class="rowh">Meat &amp; protein <span>See all</span></div>
+<div class="rail"><div class="ing on">Chicken</div><div class="ing">Pork</div><div class="ing">Beef</div><div class="ing">Tofu</div></div>
+<div class="cta">Find recipes (4)</div></div></div>
+
+<div><div class="cap">Results</div><div class="ph C">
+<div class="bar"><b>Recipes</b><span style="font-size:13px;font-weight:700">Edit</span></div>
+<div class="rowh">Ready to cook <span>2</span></div>
+<div class="rail"><div class="tile big"><img src="../../../backend/data/images/egg-fried-rice.jpg"><div class="lab">Egg fried rice<small>15 min · Easy · You have everything</small></div></div><div class="tile dim"><img src="../../../backend/data/images/chicken-teriyaki.jpg"></div></div>
+<div class="rowh">Need 1 more <span>5</span></div>
+<div class="rail"><div class="tile"><img src="../../../backend/data/images/chicken-adobo.jpg"><div class="lab">Chicken adobo<small>+ vinegar</small></div></div><div class="tile"><img src="../../../backend/data/images/beef-broccoli.jpg"><div class="lab">Beef broccoli<small>+ broccoli</small></div></div><div class="tile"><img src="../../../backend/data/images/chicken-curry.jpg"></div></div>
+<div class="rowh">Soups <span>3</span></div>
+<div class="rail"><div class="tile"><img src="../../../backend/data/images/chicken-tinola.jpg"><div class="lab">Chicken tinola<small>+ 2 more</small></div></div><div class="tile"><img src="../../../backend/data/images/chicken-noodle-soup.jpg"></div></div>
+</div></div>
+
+<div><div class="cap">Recipe</div><div class="ph C">
+<div class="hero"><img src="../../../backend/data/images/chicken-adobo.jpg"><div class="lab"><b>Chicken adobo</b><span style="font-size:13px">45 min · 4 servings · Easy</span></div></div>
+<div class="pills"><span class="pill g">✓ Chicken</span><span class="pill g">✓ Garlic</span><span class="pill g">✓ Soy sauce</span><span class="pill r">Need vinegar</span></div>
+<div class="rowh">Steps</div>
+<div class="p" style="font-size:14px;line-height:1.5"><b>1</b>&nbsp; Combine chicken, soy sauce, vinegar and garlic. Marinate 30 minutes.<br><br><b>2</b>&nbsp; Bring to a boil, then simmer covered for 30 minutes.</div>
+</div></div>
+</div>
+</section>
+
+<p class="lead" style="margin-top:0">Also set aside (not shown): a dark spectrogram look, a dark developer-console look, a zoo-map look (too childish), an airline-ticket look, and a dictionary-page look (too slow for the kitchen).</p>
+</div></body></html>

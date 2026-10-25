@@ -1,0 +1,16 @@
+# App icon: the "Ano?" bowl. Sources are rendered from assets/brand/src.
+# Regenerate with: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  # Older launchers: the full square icon.
+  image_path: "assets/brand/icon.png"
+  min_sdk_android: 21
+  # Android 8+: bowl on a leaf-green layer, shaped by the launcher.
+  adaptive_icon_background: "#17803F"
+  adaptive_icon_foreground: "assets/brand/icon_foreground.png"
+  # The art already keeps the bowl inside the safe zone, so only a light
+  # inset (default is 16%, which would make the bowl tiny).
+  adaptive_icon_foreground_inset: 8
+  # Android 13+ themed icons: one-colour bowl, tinted by the system.
+  adaptive_icon_monochrome: "assets/brand/icon_monochrome.png"

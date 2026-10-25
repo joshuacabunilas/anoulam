@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Redesign samples, set 2</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,800&family=Outfit:wght@400;600;800&family=Figtree:wght@400;600;800;900&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',Arial,sans-serif;background:#ECECEF;color:#1d1d1f;padding:28px 16px 64px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:30px;font-weight:800;letter-spacing:-.02em}
+.lead{color:#555;margin:6px 0 30px;font-size:15px;max-width:780px;line-height:1.5}
+.dir{background:#fff;border-radius:14px;padding:22px 22px 26px;margin-bottom:28px}
+.dir header{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-bottom:6px}
+.dir h2{font-size:22px;font-weight:800}
+.k{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;background:#1d1d1f;color:#fff}
+.dir p{font-size:14px;color:#444;line-height:1.5;max-width:900px}.dir p b{color:#111}
+.sw{display:flex;gap:6px;margin:10px 0 2px}.sw i{width:26px;height:26px;border-radius:6px;border:1px solid rgba(0,0,0,.1)}
+.risk{font-size:13px;color:#8a2b1d;margin-top:6px}
+.phones{display:flex;gap:18px;overflow-x:auto;padding:16px 2px 6px}
+.cap{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-bottom:6px}
+.ph{flex:none;width:330px;height:714px;border-radius:28px;border:7px solid #111;overflow:hidden;position:relative;background:var(--bg);color:var(--ink);font-family:var(--f)}
+img{display:block;width:100%;height:100%;object-fit:cover}
+/* shared app parts, themed per direction by variables */
+.bar{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-weight:800;font-size:17px}
+.bar small{font-size:13px;font-weight:600;color:var(--acc)}
+.p{padding:0 16px}
+.hi{font-size:14px;color:var(--mut);font-weight:600}
+.hd{font-size:28px;font-weight:800;line-height:1.08;letter-spacing:-.02em;margin-top:2px}
+.field{margin-top:12px;height:48px;border-radius:var(--r);background:var(--soft);display:flex;align-items:center;padding:0 14px;color:var(--mut);font-size:15px;gap:8px}
+.lb{display:flex;justify-content:space-between;align-items:baseline;margin:18px 0 10px;font-weight:800;font-size:16px}
+.lb span{font-size:13px;font-weight:600;color:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.c{height:32px;padding:0 12px;border-radius:999px;background:var(--acc);color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center}
+.cta{position:absolute;left:14px;right:14px;bottom:14px;height:54px;border-radius:var(--r);background:var(--acc);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;box-shadow:0 8px 20px var(--glow)}
+.card{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);margin-bottom:12px}
+.card .im{height:120px;position:relative}
+.card .tx{padding:10px 12px 12px}
+.card b{font-size:16px;display:block}
+.meta{font-size:12px;color:var(--mut);margin-top:2px}
+.ok{color:var(--good);font-weight:800;font-size:12px}.no{color:var(--bad);font-weight:800;font-size:12px}
+.rhero{height:280px;position:relative}
+.sheet{position:absolute;left:0;right:0;top:250px;bottom:0;background:var(--bg);border-radius:22px 22px 0 0;padding:18px 16px}
+.pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.pill{font-size:12px;font-weight:800;padding:6px 10px;border-radius:999px}
+.g{background:var(--goodbg);color:var(--good)}.r{background:var(--badbg);color:var(--bad)}
+.step{display:flex;gap:10px;margin-top:12px;font-size:14px;line-height:1.45}
+.step i{flex:none;width:26px;height:26px;border-radius:50%;background:var(--acc);color:#fff;font-style:normal;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:13px}
+
+/* D · Fresh market basket */
+.D{--bg:#fff;--ink:#14261B;--mut:#5D6B62;--acc:#1F8F52;--soft:#F1F5F2;--card:#fff;--r:16px;--f:'DM Sans',sans-serif;--glow:rgba(31,143,82,.3);--good:#17773F;--goodbg:#E2F3E8;--bad:#B5462B;--badbg:#FBE9E3}
+.D .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.D .t{border-radius:14px;height:86px;padding:9px;display:flex;flex-direction:column;justify-content:space-between;font-weight:800;font-size:12.5px;line-height:1.1;position:relative}
+.D .t small{font-weight:600;font-size:11px;opacity:.8}
+.D .t .n{position:absolute;top:8px;right:8px;width:20px;height:20px;border-radius:50%;background:var(--acc);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center}
+.D .basket{position:absolute;left:14px;right:14px;bottom:14px;height:62px;border-radius:18px;background:#14261B;color:#fff;display:flex;align-items:center;padding:0 10px 0 12px;gap:10px;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.D .basket .th{display:flex}.D .basket .th i{width:30px;height:30px;border-radius:50%;border:2px solid #14261B;margin-left:-8px;font-style:normal;display:flex;align-items:center;justify-content:center;font-size:15px;background:#E2F3E8}
+.D .basket .th i:first-child{margin-left:0}
+.D .basket b{flex:1;font-size:14px;line-height:1.2}.D .basket b small{display:block;font-weight:400;opacity:.75;font-size:12px}
+.D .basket span{background:var(--acc);border-radius:12px;padding:11px 14px;font-weight:800;font-size:14px}
+.D .badge{position:absolute;left:8px;top:8px;background:#fff;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:800}
+
+/* E · Fruit sticker */
+.E{--bg:#FFFFFF;--ink:#1F1B2E;--mut:#6A6578;--acc:#F2643A;--soft:#F5F3F8;--card:#fff;--r:20px;--f:'Outfit',sans-serif;--glow:rgba(242,100,58,.35);--good:#2E8B57;--goodbg:#E3F4EA;--bad:#C9472A;--badbg:#FDEAE3}
+.E .stk{position:absolute;right:10px;top:10px;width:68px;height:68px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:12px;line-height:1.05;transform:rotate(-10deg);box-shadow:0 3px 8px rgba(0,0,0,.2);border:2px dashed rgba(255,255,255,.7)}
+.E .stk small{font-size:10px;font-weight:600}
+.E .y{background:#FFC93C;color:#3A2A00}.E .gr{background:#3DAA6B;color:#fff}.E .o{background:#F2643A;color:#fff}
+.E .round{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 6px;text-align:center;font-size:11.5px;font-weight:600}
+.E .round i{display:flex;width:62px;height:62px;margin:0 auto 5px;border-radius:50%;align-items:center;justify-content:center;font-style:normal;font-size:24px;position:relative}
+.E .round i em{position:absolute;right:-2px;top:-2px;width:20px;height:20px;border-radius:50%;background:var(--acc);color:#fff;font-style:normal;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #fff}
+
+/* F · Tonight's table */
+.F{--bg:#FFF;--ink:#221A14;--mut:#6E6258;--acc:#E0572B;--soft:#F6F2EE;--card:#fff;--r:18px;--f:'Figtree',sans-serif;--glow:rgba(224,87,43,.3);--good:#2F7D4A;--goodbg:#E4F2E8;--bad:#B9441F;--badbg:#FCE8DF}
+.F .tonight{margin:6px 16px 0;height:250px;border-radius:24px;overflow:hidden;position:relative}
+.F .tonight .lab{position:absolute;left:0;right:0;bottom:0;padding:60px 16px 16px;background:linear-gradient(transparent,rgba(20,10,4,.82));color:#fff}
+.F .tonight small{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#FFD3BF}
+.F .tonight b{display:block;font-size:26px;font-weight:900;line-height:1.05;margin:4px 0}
+.F .tonight .go{position:absolute;right:14px;top:14px;background:#fff;color:#221A14;border-radius:999px;padding:7px 12px;font-weight:800;font-size:12px}
+.F .mini{display:flex;gap:10px;overflow:hidden}
+.F .mini div{flex:none;width:120px}
+.F .mini .im{height:90px;border-radius:14px;overflow:hidden}
+.F .mini b{display:block;font-size:13px;margin-top:6px}
+
+/* Canon */
+.G{--bg:#FFFFFF;--ink:#17181C;--mut:#6B6E76;--acc:#FF6A2B;--soft:#F3F4F6;--card:#fff;--r:14px;--f:'Plus Jakarta Sans',sans-serif;--glow:rgba(255,106,43,.3);--good:#1E8E4F;--goodbg:#E5F4EB;--bad:#C2410C;--badbg:#FFEDE3}
+.G .seg{display:flex;background:var(--soft);border-radius:12px;padding:4px;margin-top:12px}
+.G .seg div{flex:1;text-align:center;padding:8px 0;border-radius:9px;font-size:13px;font-weight:700;color:var(--mut)}
+.G .seg .on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.G .list div{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #EEE;font-size:15px;font-weight:600}
+.G .list i{width:22px;height:22px;border-radius:6px;border:2px solid #C9CCD2;font-style:normal;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff}
+.G .list i.on{background:var(--acc);border-color:var(--acc)}
+</style></head><body><div class="wrap">
+<h1>Full redesign, set 2: warmer and more inviting</h1>
+<p class="lead">Brighter, friendlier, photo-first, closer to apps people already love, but each with its own idea. All three screens per direction, with your real photos. Pick one or mix parts.</p>
+
+<!-- D -->
+<section class="dir" style="--x:0">
+<header><span class="k">D</span><h2>Fresh market basket</h2></header>
+<p><b>Feels like a polished grocery app.</b> Ingredients are added like produce into a basket: soft tinted category tiles with a little count, and a dark "basket bar" at the bottom that shows what you've got and how many dishes it makes. Fresh leaf green, rounded, airy.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#1F8F52"></i><i style="background:#14261B"></i><i style="background:#E2F3E8"></i><i style="background:#FFF1D6"></i><i style="background:#FBE9E3"></i></div>
+<p class="risk">Risk: close to grocery-delivery apps; needs the basket bar to feel like its own thing.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph D">
+<div class="bar">What to Cook<small>Clear all</small></div>
+<div class="p"><div class="hi">Good evening 👋</div><div class="hd">What's in your kitchen?</div>
+<div class="field">🔍 Search ingredients</div>
+<div class="lb">Your basket <span>4 items</span></div>
+<div class="chips"><div class="c">Chicken ✕</div><div class="c">Garlic ✕</div><div class="c">Soy sauce ✕</div><div class="c">Rice ✕</div></div>
+<div class="lb">Browse the market</div>
+<div class="tiles">
+<div class="t" style="background:#FBE9E3">🍗<span>Meat &amp; protein<br><small>15 items</small></span><i class="n" style="font-style:normal">1</i></div>
+<div class="t" style="background:#E3EEF8">🐟<span>Seafood<br><small>9 items</small></span></div>
+<div class="t" style="background:#FFF1D6">🥚<span>Eggs &amp; dairy<br><small>11 items</small></span></div>
+<div class="t" style="background:#E2F3E8">🥬<span>Vegetables<br><small>30 items</small></span><i class="n" style="font-style:normal">1</i></div>
+<div class="t" style="background:#FDE7EE">🍎<span>Fruits<br><small>8 items</small></span></div>
+<div class="t" style="background:#F4EBDD">🍚<span>Rice &amp; noodles<br><small>16 items</small></span><i class="n" style="font-style:normal">1</i></div>
+</div></div>
+<div class="basket"><div class="th"><i>🍗</i><i>🧄</i><i>🍚</i></div><b>4 ingredients<small>makes 12 dishes</small></b><span>See recipes</span></div>
+</div></div>
+
+<div><div class="cap">Results</div><div class="ph D">
+<div class="bar">← 12 recipes<small>Edit basket</small></div>
+<div class="p">
+<div class="chips" style="margin-bottom:12px"><div class="c">Ready to cook</div><div class="c" style="background:#F1F5F2;color:#14261B">Under 30 min</div><div class="c" style="background:#F1F5F2;color:#14261B">Easy</div></div>
+<div class="card"><div class="im"><img src="../../../backend/data/images/egg-fried-rice.jpg"><span class="badge" style="color:#17773F">✓ Ready to cook</span></div><div class="tx"><b>Egg fried rice</b><div class="meta">15 min · Easy · 2 servings</div></div></div>
+<div class="card"><div class="im"><img src="../../../backend/data/images/chicken-adobo.jpg"><span class="badge" style="color:#B5462B">+ 1 ingredient</span></div><div class="tx"><b>Chicken adobo</b><div class="meta">45 min · Easy · Needs vinegar</div></div></div>
+<div class="card"><div class="im"><img src="../../../backend/data/images/chicken-teriyaki.jpg"><span class="badge" style="color:#B5462B">+ 2 ingredients</span></div><div class="tx"><b>Chicken teriyaki</b><div class="meta">30 min · Easy</div></div></div>
+</div></div></div>
+
+<div><div class="cap">Recipe</div><div class="ph D">
+<div class="rhero"><img src="../../../backend/data/images/chicken-adobo.jpg"></div>
+<div class="sheet"><div class="hd" style="font-size:26px">Chicken adobo</div><div class="meta" style="font-size:13px">45 min · 4 servings · Easy</div>
+<div class="pills"><span class="pill g">✓ Chicken</span><span class="pill g">✓ Garlic</span><span class="pill g">✓ Soy sauce</span><span class="pill r">+ Vinegar</span></div>
+<div class="lb">Steps <span>1 of 4</span></div>
+<div class="step"><i>1</i>Combine chicken, soy sauce, vinegar and garlic. Marinate 30 minutes.</div>
+<div class="step"><i>2</i>Bring to a boil, then simmer covered for 30 minutes.</div></div>
+<div class="cta">Start cooking</div>
+</div></div>
+</div></section>
+
+<!-- E -->
+<section class="dir">
+<header><span class="k">E</span><h2>Fruit sticker</h2></header>
+<p><b>Cheerful, grown-up fun.</b> Little round produce stickers do the talking: "Ready!", "+1", "15 min" stuck at a tilt on the food photos. Pantry categories are round produce badges. Bright citrus orange with sunny yellow and fresh green, lots of white.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#F2643A"></i><i style="background:#FFC93C"></i><i style="background:#3DAA6B"></i><i style="background:#1F1B2E"></i></div>
+<p class="risk">Risk: the most playful of the set; must stay tidy so it doesn't feel childish.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph E">
+<div class="bar">What to Cook<small>Clear all</small></div>
+<div class="p"><div class="hd" style="font-size:30px">What's in your kitchen?</div>
+<div class="field">🔍 Add an ingredient</div>
+<div class="lb">You have <span>4</span></div>
+<div class="chips"><div class="c">Chicken ✕</div><div class="c">Garlic ✕</div><div class="c">Soy sauce ✕</div><div class="c">Rice ✕</div></div>
+<div class="lb">Pick from the pantry</div>
+<div class="round">
+<div><i style="background:#FDE3DA">🍗<em>1</em></i>Meat</div><div><i style="background:#DCEBFA">🐟</i>Seafood</div><div><i style="background:#FFF0C7">🥚</i>Eggs &amp; dairy</div><div><i style="background:#DDF2E5">🥬<em>1</em></i>Veggies</div>
+<div><i style="background:#FDE0EA">🍎</i>Fruits</div><div><i style="background:#F3E9D9">🍚<em>1</em></i>Rice</div><div><i style="background:#EDE4F6">🧂<em>1</em></i>Sauces</div><div><i style="background:#E4F1DA">🌿</i>Herbs</div>
+</div></div>
+<div class="cta">Find recipes (4)</div>
+</div></div>
+
+<div><div class="cap">Results</div><div class="ph E">
+<div class="bar">← Recipes<small>Edit</small></div>
+<div class="p">
+<div class="card"><div class="im" style="height:150px"><img src="../../../backend/data/images/egg-fried-rice.jpg"><div class="stk gr">READY!<small>cook now</small></div></div><div class="tx"><b>Egg fried rice</b><div class="meta">15 min · Easy</div></div></div>
+<div class="card"><div class="im" style="height:150px"><img src="../../../backend/data/images/chicken-adobo.jpg"><div class="stk y">+1<small>vinegar</small></div></div><div class="tx"><b>Chicken adobo</b><div class="meta">45 min · Easy</div></div></div>
+<div class="card"><div class="im" style="height:150px"><img src="../../../backend/data/images/chicken-tinola.jpg"><div class="stk o">+2<small>more</small></div></div><div class="tx"><b>Chicken tinola</b><div class="meta">40 min · Easy</div></div></div>
+</div></div></div>
+
+<div><div class="cap">Recipe</div><div class="ph E">
+<div class="rhero"><img src="../../../backend/data/images/chicken-adobo.jpg"><div class="stk y" style="top:auto;bottom:40px;right:18px;width:78px;height:78px;font-size:14px">+1<small>vinegar</small></div></div>
+<div class="sheet"><div class="hd" style="font-size:26px">Chicken adobo</div><div class="meta" style="font-size:13px">45 min · 4 servings · Easy</div>
+<div class="pills"><span class="pill g">✓ Chicken</span><span class="pill g">✓ Garlic</span><span class="pill g">✓ Soy sauce</span><span class="pill r">Need vinegar</span></div>
+<div class="lb">Steps</div>
+<div class="step"><i>1</i>Combine chicken, soy sauce, vinegar and garlic. Marinate 30 minutes.</div>
+<div class="step"><i>2</i>Bring to a boil, then simmer covered for 30 minutes.</div></div>
+</div></div>
+</div></section>
+
+<!-- F -->
+<section class="dir">
+<header><span class="k">F</span><h2>Tonight's table</h2></header>
+<p><b>Inspiring, like a food magazine that knows your fridge.</b> The home screen leads with a big, mouth-watering photo: "Tonight you could make Egg fried rice", picked from what you have. Ingredients sit below. Warm paprika-orange accent, generous photos everywhere, bold friendly type.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#E0572B"></i><i style="background:#221A14"></i><i style="background:#F6F2EE"></i><i style="background:#2F7D4A"></i></div>
+<p class="risk">Risk: the "tonight" pick needs a quick backend call as your list changes (small addition, still free).</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph F">
+<div class="bar">What to Cook<small>Clear all</small></div>
+<div class="tonight"><img src="../../../backend/data/images/egg-fried-rice.jpg"><span class="go">See all 12 →</span><div class="lab"><small>Tonight you could make</small><b>Egg fried rice</b><span style="font-size:13px">✓ You have everything · 15 min</span></div></div>
+<div class="p"><div class="field">🔍 Add an ingredient</div>
+<div class="lb">Your ingredients <span>4</span></div>
+<div class="chips"><div class="c">Chicken ✕</div><div class="c">Garlic ✕</div><div class="c">Soy sauce ✕</div><div class="c">Rice ✕</div></div>
+<div class="lb">Browse <span>All categories</span></div>
+<div class="chips"><div class="c" style="background:#F6F2EE;color:#221A14">🍗 Meat · 1</div><div class="c" style="background:#F6F2EE;color:#221A14">🥬 Veggies · 1</div><div class="c" style="background:#F6F2EE;color:#221A14">🐟 Seafood</div></div>
+</div>
+<div class="cta">Find recipes (4)</div>
+</div></div>
+
+<div><div class="cap">Results</div><div class="ph F">
+<div class="bar">← For your kitchen<small>Edit</small></div>
+<div class="p"><div class="lb" style="margin-top:4px">Ready now <span>2</span></div>
+<div class="card" style="margin-bottom:6px"><div class="im" style="height:170px"><img src="../../../backend/data/images/egg-fried-rice.jpg"></div><div class="tx"><b>Egg fried rice</b><div class="meta">15 min · Easy · <span class="ok">You have everything</span></div></div></div>
+<div class="lb">One shop away <span>5</span></div>
+<div class="mini"><div><div class="im"><img src="../../../backend/data/images/chicken-adobo.jpg"></div><b>Chicken adobo</b><span class="no">+ vinegar</span></div><div><div class="im"><img src="../../../backend/data/images/beef-broccoli.jpg"></div><b>Beef broccoli</b><span class="no">+ broccoli</span></div><div><div class="im"><img src="../../../backend/data/images/chicken-curry.jpg"></div><b>Chicken curry</b></div></div>
+</div></div></div>
+
+<div><div class="cap">Recipe</div><div class="ph F">
+<div class="rhero" style="height:320px"><img src="../../../backend/data/images/chicken-adobo.jpg"></div>
+<div class="sheet" style="top:290px"><div class="hd" style="font-size:28px;font-weight:900">Chicken adobo</div><div class="meta" style="font-size:13px">45 min · 4 servings · Easy</div>
+<div class="pills"><span class="pill g">✓ 3 you have</span><span class="pill r">+ Vinegar</span></div>
+<div class="step"><i>1</i>Combine chicken, soy sauce, vinegar and garlic. Marinate 30 minutes.</div>
+<div class="step"><i>2</i>Bring to a boil, then simmer covered for 30 minutes.</div></div>
+<div class="cta">Start cooking</div>
+</div></div>
+</div></section>
+
+<!-- Canon -->
+<section class="dir">
+<header><span class="k" style="background:#fff;color:#111;border:1.5px solid #111">Category standard</span><h2>The best recipe apps, done right</h2></header>
+<p><b>What Kitchen Stories, Tasty and SideChef ship, at full polish.</b> Clean white, one appetising orange, rounded photo cards, a simple checklist for ingredients with a segmented "Pantry / Search" switch. Instantly familiar.</p>
+<div class="sw"><i style="background:#fff"></i><i style="background:#FF6A2B"></i><i style="background:#17181C"></i><i style="background:#F3F4F6"></i></div>
+<p class="risk">Risk: looks like everyone else by design.</p>
+<div class="phones">
+<div><div class="cap">Home</div><div class="ph G">
+<div class="bar">What to Cook<small>Clear all</small></div>
+<div class="p"><div class="hd">What's in your kitchen?</div>
+<div class="seg"><div class="on">Pantry</div><div>Search</div></div>
+<div class="lb">Meat &amp; protein <span>1 selected</span></div>
+<div class="list"><div><i class="on">✓</i>Chicken</div><div><i></i>Pork</div><div><i></i>Beef</div><div><i></i>Tofu</div></div>
+<div class="lb">Vegetables <span>1 selected</span></div>
+<div class="list"><div><i class="on">✓</i>Garlic</div><div><i></i>Onion</div><div><i></i>Tomatoes</div></div>
+</div><div class="cta">Find recipes (4)</div>
+</div></div>
+<div><div class="cap">Results</div><div class="ph G">
+<div class="bar">← Recipes<small>Filter</small></div>
+<div class="p">
+<div class="card"><div class="im" style="height:140px"><img src="../../../backend/data/images/egg-fried-rice.jpg"></div><div class="tx"><b>Egg fried rice</b><div class="meta">15 min · Easy · <span class="ok">Ready</span></div></div></div>
+<div class="card"><div class="im" style="height:140px"><img src="../../../backend/data/images/chicken-adobo.jpg"></div><div class="tx"><b>Chicken adobo</b><div class="meta">45 min · Easy · <span class="no">Missing 1</span></div></div></div>
+<div class="card"><div class="im" style="height:140px"><img src="../../../backend/data/images/chicken-teriyaki.jpg"></div><div class="tx"><b>Chicken teriyaki</b><div class="meta">30 min · <span class="no">Missing 2</span></div></div></div>
+</div></div></div>
+<div><div class="cap">Recipe</div><div class="ph G">
+<div class="rhero"><img src="../../../backend/data/images/chicken-adobo.jpg"></div>
+<div class="sheet"><div class="hd" style="font-size:26px">Chicken adobo</div><div class="meta" style="font-size:13px">45 min · 4 servings · Easy</div>
+<div class="pills"><span class="pill g">✓ Chicken</span><span class="pill g">✓ Garlic</span><span class="pill g">✓ Soy sauce</span><span class="pill r">Need vinegar</span></div>
+<div class="step"><i>1</i>Combine chicken, soy sauce, vinegar and garlic. Marinate 30 minutes.</div>
+<div class="step"><i>2</i>Bring to a boil, then simmer covered for 30 minutes.</div></div>
+</div></div>
+</div></section>
+
+<p class="lead" style="margin-top:0">Emoji are placeholders in these sketches; the app uses proper icons. "Good evening", "makes 12 dishes" and the "Tonight" pick are ideas that would need small additions.</p>
+</div></body></html>

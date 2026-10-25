@@ -1,0 +1,36 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:#fff;color:#1b1b1b;font-family:"Inter","Helvetica Neue",Arial,sans-serif}
+.bar{height:56px;display:flex;align-items:center;padding:0 20px;font-weight:700;font-size:15px;letter-spacing:.02em;text-transform:uppercase}
+.h{padding:8px 20px 0;font-size:40px;line-height:1.02;font-weight:800;letter-spacing:-.02em}
+.field{margin:18px 20px 0;height:52px;border:2px solid #1b1b1b;border-radius:4px;display:flex;align-items:center;padding:0 14px;font-size:16px;color:#6b6b6b}
+.label{margin:22px 20px 8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#555}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0 20px}
+.chip{height:36px;padding:0 14px;border-radius:18px;background:#1b1b1b;color:#fff;display:flex;align-items:center;font-size:15px;font-weight:700}
+.cards{margin-top:24px;display:flex;flex-direction:column;gap:0}
+.card{display:flex;height:150px}
+.ph{width:58%;background-size:cover;background-position:center}
+.txt{flex:1;padding:14px;display:flex;flex-direction:column;justify-content:space-between;color:#fff}
+.txt b{font-size:22px;line-height:1.05;font-weight:800;letter-spacing:-.01em}
+.txt span{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.meat{background:#D9472B}.rice{background:#F2B53A;color:#1b1b1b}.veg{background:#2F7D4F}
+.rice .txt{color:#1b1b1b}
+.cta{position:absolute;left:20px;right:20px;bottom:20px;height:56px;background:#1b1b1b;color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800}
+</style></head><body>
+<div class="bar">What to Cook</div>
+<div class="h">What's in<br>your kitchen?</div>
+<div class="field">Add an ingredient</div>
+<div class="label">Your ingredients · 6</div>
+<div class="chips">
+<div class="chip">Chicken</div><div class="chip">Garlic</div><div class="chip">Onion</div><div class="chip">Soy sauce</div><div class="chip">Rice</div><div class="chip">Eggs</div>
+</div>
+<div class="label">Ready to cook</div>
+<div class="cards">
+<div class="card meat"><div class="ph" style="background-image:linear-gradient(135deg,#8a2a16,#c0552f)"></div><div class="txt"><b>Chicken Adobo</b><span>45 min · Ready</span></div></div>
+<div class="card rice"><div class="ph" style="background-image:linear-gradient(135deg,#a77a1c,#e9c46a)"></div><div class="txt"><b>Garlic Fried Rice</b><span>15 min · Ready</span></div></div>
+<div class="card veg"><div class="ph" style="background-image:linear-gradient(135deg,#1e5235,#4f9a68)"></div><div class="txt"><b>Egg Fried Greens</b><span>20 min · Missing 1</span></div></div>
+</div>
+<div class="cta">Find recipes (6)</div>
+</body></html>

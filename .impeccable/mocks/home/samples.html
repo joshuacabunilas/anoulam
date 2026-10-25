@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home screen samples</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B1B1B;--muted:#595959;--rule:#E2E2E2;--out:#757575;--tomato:#C2381F;--sea:#1D5A85;--leaf:#2C7A4B;--saffron:#F2B53A;--rose:#F3B3C0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Archivo,Arial,sans-serif;color:var(--ink);background:#EDEDED;padding:32px 16px 64px}
+h1{font-size:32px;font-weight:800;letter-spacing:-.02em;max-width:1720px;margin:0 auto 6px}
+.lead{color:var(--muted);max-width:1720px;margin:0 auto 28px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(390px,1fr));gap:32px;max-width:1720px;margin:0 auto}
+.opt h2{font-size:20px;font-weight:800;margin:0 0 4px}
+.opt p{font-size:14px;color:var(--muted);line-height:1.45;margin-bottom:6px;max-width:390px}
+.opt p b{color:var(--ink)}
+.tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border:1.5px solid var(--ink);border-radius:2px;margin-bottom:8px}
+.tag.now{border-color:var(--out);color:var(--muted)}
+.phone{width:390px;height:844px;background:#fff;border-radius:28px;overflow:hidden;position:relative;box-shadow:0 12px 40px rgba(0,0,0,.14);margin-top:12px;border:8px solid #111}
+.sb{height:28px}
+.bar{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;border-bottom:1px solid var(--rule)}
+.bar b{font-size:13px;font-weight:800;letter-spacing:.07em}
+.bar u{font-size:14px;font-weight:800}
+.pad{padding:16px}
+.hd{font-size:34px;font-weight:800;line-height:1.05;letter-spacing:-.02em}
+.sub{font-size:15px;color:var(--muted);margin-top:6px;line-height:1.35}
+.field{margin-top:14px;height:52px;border:2px solid var(--ink);border-radius:4px;display:flex;align-items:center;padding:0 6px 0 14px;font-size:16px;color:var(--muted);justify-content:space-between}
+.field i{width:40px;height:40px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:22px}
+.field.typing{color:var(--ink)}
+.lbl{font-size:13px;font-weight:800;letter-spacing:.07em;margin:22px 0 10px;display:flex;justify-content:space-between}
+.lbl span{color:var(--muted);font-weight:600;letter-spacing:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.c{height:34px;padding:0 13px;border:1px solid var(--out);border-radius:17px;display:flex;align-items:center;font-size:14px;font-weight:600;gap:6px}
+.c.on{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:800}
+.tabs{display:flex;gap:8px;overflow:hidden;padding:10px 16px;border-bottom:1px solid var(--rule);border-top:1px solid var(--rule)}
+.tabs .c{flex:none}
+.cta{position:absolute;left:16px;right:16px;bottom:16px;height:56px;background:var(--ink);color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800}
+/* B: shelf grid */
+.shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tile{border:1.5px solid var(--ink);border-radius:4px;height:92px;padding:10px;display:flex;flex-direction:column;justify-content:space-between;font-size:14px;font-weight:800;line-height:1.1}
+.tile small{font-size:12px;font-weight:600;color:var(--muted)}
+.tile.on{background:var(--ink);color:#fff}.tile.on small{color:#fff}
+.ic{font-size:20px;line-height:1}
+.sheet{position:absolute;left:0;right:0;bottom:0;height:46%;background:#fff;border-top:2px solid var(--ink);border-radius:12px 12px 0 0;padding:10px 16px;box-shadow:0 -10px 30px rgba(0,0,0,.18)}
+.grab{width:36px;height:4px;background:var(--out);border-radius:2px;margin:0 auto 10px}
+.dim{position:absolute;inset:0;background:rgba(0,0,0,.32)}
+/* C: pantry list */
+.row{display:flex;align-items:center;justify-content:space-between;height:48px;border-top:1px solid var(--rule);font-size:17px;font-weight:800}
+.row:last-child{border-bottom:1px solid var(--rule)}
+.row em{font-style:normal;font-size:20px;color:var(--muted);font-weight:400}
+.ghost{margin-top:14px;height:48px;border:2px solid var(--ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+/* D: live count */
+.live{position:absolute;left:0;right:0;bottom:88px;padding:12px 16px;border-top:1px solid var(--rule);background:#fff;display:flex;gap:10px;align-items:stretch}
+.stat{flex:1;border-radius:4px;padding:10px 12px;font-size:13px;font-weight:600}
+.stat b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.s1{background:var(--leaf);color:#fff}.s2{background:var(--saffron);color:var(--ink)}
+.peek{display:flex;gap:8px;margin-top:10px}
+.pk{flex:1;height:64px;border-radius:4px;display:flex;align-items:flex-end;padding:8px;font-size:12px;font-weight:800;color:#fff}
+.note{font-size:12px;color:var(--tomato);font-weight:700;margin-top:4px}
+</style></head><body>
+<h1>Home screen: four directions</h1>
+<p class="lead">All four use the look you chose (white, ink, Archivo, food on colour). They differ in how you find and add ingredients. Tell me a letter, or mix parts, e.g. "C with the live count from D".</p>
+<div class="grid">
+
+<!-- NOW -->
+<section class="opt">
+<span class="tag now">Now</span>
+<h2>Current: tabs + chips</h2>
+<p>Heading, field with suggestions, your list, Popular, then pinned category tabs. Long scroll before you reach browsing; Popular repeats many browse items.</p>
+<div class="phone"><div class="sb"></div>
+<div class="bar"><b>WHAT TO COOK</b><u>Clear all</u></div>
+<div class="pad">
+<div class="hd">What's in your kitchen?</div>
+<div class="sub">Add what you have and we'll suggest dishes you can make.</div>
+<div class="field">Ingredient<i>+</i></div>
+<div class="lbl">YOUR INGREDIENTS</div>
+<div class="chips"><div class="c on">Onion ✕</div><div class="c on">Garlic ✕</div></div>
+<div class="lbl">POPULAR</div>
+<div class="chips"><div class="c on">✓ Onion</div><div class="c on">✓ Garlic</div><div class="c">+ Tomatoes</div><div class="c">+ Eggs</div><div class="c">+ Rice</div><div class="c">+ Chicken</div><div class="c">+ Soy sauce</div><div class="c">+ Potatoes</div></div>
+<div class="lbl">BROWSE INGREDIENTS</div>
+</div>
+<div class="tabs"><div class="c on">Meat &amp; protein</div><div class="c">Seafood</div><div class="c">Eggs &amp; dairy</div></div>
+<div class="pad"><div class="chips"><div class="c">+ Chicken</div><div class="c">+ Pork</div><div class="c">+ Beef</div><div class="c">+ Ground pork</div></div></div>
+<div class="cta">Find recipes (2)</div>
+</div>
+</section>
+
+<!-- A -->
+<section class="opt">
+<span class="tag">A · Pantry shelf</span>
+<h2>Category tiles, chips in a sheet</h2>
+<p><b>Whole pantry on one screen.</b> Nine square tiles replace Popular and the tabs; a tile turns ink once it has picks. Tapping one slides up a sheet of its ingredients. Shortest page, least scrolling.</p>
+<div class="phone"><div class="sb"></div>
+<div class="bar"><b>WHAT TO COOK</b><u>Clear all</u></div>
+<div class="pad">
+<div class="hd">What's in your kitchen?</div>
+<div class="field">Search or add an ingredient<i>+</i></div>
+<div class="lbl">YOUR INGREDIENTS <span>3</span></div>
+<div class="chips"><div class="c on">Onion ✕</div><div class="c on">Garlic ✕</div><div class="c on">Chicken ✕</div></div>
+<div class="lbl">BROWSE</div>
+<div class="shelf">
+<div class="tile on"><span class="ic">🍗</span>Meat &amp; protein<small>1 picked</small></div>
+<div class="tile"><span class="ic">🐟</span>Seafood<small>9 items</small></div>
+<div class="tile"><span class="ic">🥚</span>Eggs &amp; dairy<small>11 items</small></div>
+<div class="tile on"><span class="ic">🥬</span>Vegetables<small>2 picked</small></div>
+<div class="tile"><span class="ic">🍎</span>Fruits<small>8 items</small></div>
+<div class="tile"><span class="ic">🍚</span>Rice, noodles &amp; bread<small>16 items</small></div>
+<div class="tile"><span class="ic">🧂</span>Sauces<small>19 items</small></div>
+<div class="tile"><span class="ic">🌿</span>Herbs &amp; spices<small>12 items</small></div>
+<div class="tile"><span class="ic">🧁</span>Baking<small>10 items</small></div>
+</div>
+</div>
+<div class="cta">Find recipes (3)</div>
+</div>
+<p style="margin-top:14px">Tapping "Vegetables":</p>
+<div class="phone" style="height:520px"><div class="sb"></div>
+<div class="pad" style="opacity:.35"><div class="hd">What's in your kitchen?</div></div>
+<div class="dim"></div>
+<div class="sheet" style="height:86%"><div class="grab"></div>
+<div class="lbl" style="margin-top:4px">VEGETABLES <span>2 picked</span></div>
+<div class="chips"><div class="c on">✓ Onion</div><div class="c on">✓ Garlic</div><div class="c">+ Tomatoes</div><div class="c">+ Potatoes</div><div class="c">+ Carrots</div><div class="c">+ Cabbage</div><div class="c">+ Bell pepper</div><div class="c">+ Eggplant</div><div class="c">+ Spinach</div><div class="c">+ Kangkong</div><div class="c">+ Broccoli</div><div class="c">+ Squash</div><div class="c">+ Mushrooms</div><div class="c">+ Okra</div></div>
+<div class="cta" style="position:static;margin-top:16px">Done</div>
+</div></div>
+<p style="margin-top:8px">(Icons in the real app are Material icons, not emoji.)</p>
+</section>
+
+<!-- B -->
+<section class="opt">
+<span class="tag">B · Cookbook list</span>
+<h2>Your ingredients as a ruled list</h2>
+<p><b>Reads like a recipe's ingredient column.</b> What you have is a big ruled list with one-tap remove; search with suggestions sits on top; browsing moves to a full-screen "Browse all" picker. Calm and very scannable once the list grows.</p>
+<div class="phone"><div class="sb"></div>
+<div class="bar"><b>WHAT TO COOK</b><u>Clear all</u></div>
+<div class="pad">
+<div class="hd">What's in your kitchen?</div>
+<div class="field typing">gar<i>+</i></div>
+<div class="chips" style="margin-top:10px"><div class="c">+ Garlic</div><div class="c">+ Garbanzos</div><div class="c">+ Garlic powder</div></div>
+<div class="lbl">YOUR INGREDIENTS <span>5</span></div>
+<div>
+<div class="row">Chicken<em>✕</em></div>
+<div class="row">Onion<em>✕</em></div>
+<div class="row">Soy sauce<em>✕</em></div>
+<div class="row">Rice<em>✕</em></div>
+<div class="row">Eggs<em>✕</em></div>
+</div>
+<div class="ghost">Browse all ingredients →</div>
+</div>
+<div class="cta">Find recipes (5)</div>
+</div>
+</section>
+
+<!-- C -->
+<section class="opt">
+<span class="tag">C · Live count</span>
+<h2>See results grow as you add</h2>
+<p><b>Instant feedback.</b> A panel above the button counts dishes as you add: "4 ready to cook, 12 need 1–2 more", with the top dishes' colours peeking in. Each pick visibly pays off. Works with A or B.</p>
+<p class="note">Needs a quick count call to the backend on each change (small addition, still free).</p>
+<div class="phone"><div class="sb"></div>
+<div class="bar"><b>WHAT TO COOK</b><u>Clear all</u></div>
+<div class="pad">
+<div class="hd">What's in your kitchen?</div>
+<div class="field">Search or add an ingredient<i>+</i></div>
+<div class="lbl">YOUR INGREDIENTS <span>4</span></div>
+<div class="chips"><div class="c on">Chicken ✕</div><div class="c on">Onion ✕</div><div class="c on">Garlic ✕</div><div class="c on">Soy sauce ✕</div></div>
+<div class="lbl">POPULAR</div>
+<div class="chips"><div class="c">+ Vinegar</div><div class="c">+ Rice</div><div class="c">+ Eggs</div><div class="c">+ Tomatoes</div><div class="c">+ Potatoes</div></div>
+</div>
+<div class="live">
+<div style="flex:1">
+<div style="display:flex;gap:10px">
+<div class="stat s1"><b>4</b>ready to cook</div>
+<div class="stat s2"><b>12</b>need 1–2 more</div>
+</div>
+<div class="peek"><div class="pk" style="background:var(--tomato)">Adobo</div><div class="pk" style="background:var(--saffron);color:var(--ink)">Fried rice</div><div class="pk" style="background:var(--leaf)">Tinola</div></div>
+</div>
+</div>
+<div class="cta">See 16 recipes</div>
+</div>
+</section>
+
+</div>
+</body></html>

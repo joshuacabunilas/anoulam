@@ -1,0 +1,19 @@
+# Splash: the bowl on leaf green with the AnoUlam wordmark at the bottom.
+# Sources are rendered from assets/brand/src.
+# Regenerate with: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#17803F"
+  image: assets/brand/splash.png
+  branding: assets/brand/branding.png
+  branding_bottom_padding: 32
+
+  # Android 12+ uses the system splash: icon in the centre, branding below.
+  android_12:
+    color: "#17803F"
+    image: assets/brand/splash.png
+    branding: assets/brand/branding.png
+
+  android: true
+  ios: false
+  web: false
+  fullscreen: false
